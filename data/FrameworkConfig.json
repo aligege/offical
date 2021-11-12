@@ -1,20 +1,6 @@
 {
     "local_host":"127.0.0.1",
     "internet_host":"8.142.216.59",
-    "announce":
-    {
-        "type":"hall",
-        "content":"来自服务器的测试公告测试公告测试公告测试公告测试公告测试公告测试公告",
-        "time":1533180629000,
-        "sec":-1
-    },
-    "marquee":
-    {
-        "type":"hall",
-        "content":"来自服务器的测试跑马灯，祝所有连连看用户发大财",
-        "time":1533180629000,
-        "sec":-1
-    },
     "db":
     {
         "mongo":
@@ -25,64 +11,6 @@
             "user"     : "eryigame",
             "password" : "eryigame@123",
             "database" : "offical"
-        }
-    },
-    "third_cfg":
-    {
-        "open_social":
-        {
-            "app_id":"appid_42313131",
-            "app_secret":"apps_FDS4342J34JL432",
-            "auth_url":"http://47.99.195.103:8888/auth/",
-            "user_url":"http://47.99.195.103:8888/auth/userinfo/",
-            "update_pwd_url":"http://47.99.195.103:8888/auth/updatepwd/"
-        },
-        "aliSms":
-        {
-            "accessKeyId":"LTAIeqjiZ5OCev0B",
-            "secretAccessKey":"0w1fmDEORshI94QqtampBaAPQDqUAj",
-            "templateCode":"SMS_154589473"
-        },
-        "qiniu":
-        {
-            "host"      : "p0bj0dycx.bkt.clouddn.com",
-            "bucket"    : "eryiniuniu",
-            "accessKey" : "OETxflxP9V5ZzPcjE30asCv-YxWBvDpmMPJegtI4",
-            "secretKey" : "kZWsom120P0-cfQt_9_1-wR_X8RwuLeMXKbU_uc4"
-        },
-        "email":
-        {
-            "host": "smtp.live.com",
-            "port": 587,
-            "secure": false,
-            "auth": 
-            {
-                "user": "chengang01@live.com",
-                "pass": "cg123!@#"
-            },
-            "from":"OpenSocial <chengang01@live.com>"
-        },
-        "qq":
-        {
-            "app_id":"101775753",
-            "app_key":"753d0f02f3c4093062e7b2f56c7fcb0c",
-            "redirect_uri":"http://www.eryinet.com/qq/callback"
-        },
-        "wechat":
-        {
-            "app_id":"wx80f0f10fe1304e9d",
-            "app_key":"a76fc337c49b309886a6538d31c344e2",
-            "redirect_uri":"http://127.0.0.1/wechat/callback"
-        },
-        "alipay":
-        {
-            "open":true,
-            "app_id": "2019090867069238",
-            "app_key":"./data/alipay/alipay_private_key.pem",
-            "gateway":"https://openapi.alipay.com/gateway.do",
-            "app_id_dev": "2016101400683724",
-            "app_key_dev":"./data/alipay/alipay_private_key_dev.pem",
-            "gateway_dev":"https://openapi.alipaydev.com/gateway.do"
         }
     },
     "webserver":
