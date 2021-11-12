@@ -1,8 +1,9 @@
 {
-  "name": "admin",
-  "description": "admin",
+  "name": "offical",
+  "description": "offical",
   "repository": "",
-  "version": "1.0.46",
+  "version": "2.0.0",
+  "type": "commonjs",
   "author": {
     "name": "mumagege",
     "email": "chengang01@live.com"
@@ -10,7 +11,7 @@
   "dependencies": {
     "@types/cheerio": "^0.22.29",
     "@types/sha1": "^1.1.2",
-    "cgserver": "^4.1.1",
+    "cgserver": "^5.0.1",
     "cheerio": "^1.0.0-rc.10",
     "sha1": "^1.1.1"
   },
