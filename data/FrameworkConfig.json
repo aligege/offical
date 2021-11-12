@@ -18,7 +18,7 @@
         "port":8000,
         "cache":{},
         "debug":true,
-        "web_name":"web",
+        "web_name":"而已网络",
         "cookie":
         {
             "prefix":"account_cookie_",
@@ -30,8 +30,8 @@
         },
         "routs":
         {
-            "onlyModule":"xoffical",
-            "defaults": { "module":"xoffical","controller" : "Index", "action" : "Index"}
+            "onlyModule":"offical",
+            "defaults": { "module":"offical","controller" : "index", "action" : "index"}
         }
     }
 }
