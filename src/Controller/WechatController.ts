@@ -1,9 +1,9 @@
 import { BaseOfficalController } from "./BaseOfficalController";
-import { GExtAccountSer } from "../../../Modules/Admin/Service/ExtAccountService";
-import { EAccountFrom } from "cgserver/lib/Framework/Service/AccountService";
 import { GExtUserSer } from "../Service/ExtUserService";
 import { GWechatTool } from "cgserver/lib/Framework/ThirdParty/WechatTool";
 import { GCacheTool } from "cgserver/lib/Framework/Logic/CacheTool";
+import { GExtAccountSer } from "../Service/ExtAccountService";
+import { EAccountFrom } from "cgserver/lib/Framework/Service/ini";
 
 export class WechatController extends BaseOfficalController
 {

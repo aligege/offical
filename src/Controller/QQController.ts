@@ -1,8 +1,8 @@
 import { BaseOfficalController } from "./BaseOfficalController";
 import { GQQTool } from "cgserver/lib/Framework/ThirdParty/QQTool";
-import { GExtAccountSer } from "../../../Modules/Admin/Service/ExtAccountService";
-import { EAccountFrom } from "cgserver/lib/Framework/Service/AccountService";
 import { GExtUserSer } from "../Service/ExtUserService";
+import { GExtAccountSer } from "../Service/ExtAccountService";
+import { EAccountFrom } from "cgserver/lib/Framework/Service/ini";
 
 export class QQController extends BaseOfficalController
 {

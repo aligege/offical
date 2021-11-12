@@ -11,22 +11,12 @@ export class ShortController extends BaseOfficalController
     async onList()
     {
         let params=this.postData
-        let where=""
-        let ps=[]
-        if(where=="")
-        {
-            where=null
-            ps=null
-        }
 
         let page = params.page||0
         let num_per_page = params.page_num||20
 
-        let p_total=GShortSer.getCount(where,ps)
-        where=(where||"1=1")+" order by create_time desc limit ?,?"
-        ps=ps||[]
-        ps.push(page*num_per_page,num_per_page)
-        let p_list=GShortSer.gets(null,where,ps)
+        let p_total=GShortSer.getTotal()
+        let p_list=GShortSer.gets(null,null,{create_time:1},page*num_per_page,num_per_page)
 
         params.total_num = await p_total
         params.shorts = await p_list
@@ -48,8 +38,9 @@ export class ShortController extends BaseOfficalController
         sm.type_id=params.type_id||sm.type_id
         sm.show_type=params.show_type||sm.show_type
         sm.content=params.content
-        var sr = await GShortSer.insert(sm,this.remoteHost)
-        if(sr.error||sr.results.affectedRows!=1)
+        sm.create_ip=this.remoteHost
+        var sr = await GShortSer.insert(sm)
+        if(sr.errcode)
         {
             this.showJson({errcode:EErrorCode.Short_AddFailed})
             return
@@ -63,7 +54,7 @@ export class ShortController extends BaseOfficalController
         this.showJson({short:sm})
         if(sm)
         {
-            GShortSer.updateProperty("`read`=`read`+1","id=?",[sm.id])
+            GShortSer.updateOne({$inc:{read:1}},{id:sm.id})
         }
     }
 }

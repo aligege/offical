@@ -18,7 +18,7 @@
     "db":
     {
         "mongo":
-        {
+        {  
             "open":true,
             "host":"8.142.216.59",
             "port":27017,
@@ -78,10 +78,10 @@
         {
             "open":true,
             "app_id": "2019090867069238",
-            "app_key":"./Data/alipay/alipay_private_key.pem",
+            "app_key":"./data/alipay/alipay_private_key.pem",
             "gateway":"https://openapi.alipay.com/gateway.do",
             "app_id_dev": "2016101400683724",
-            "app_key_dev":"./Data/alipay/alipay_private_key_dev.pem",
+            "app_key_dev":"./data/alipay/alipay_private_key_dev.pem",
             "gateway_dev":"https://openapi.alipaydev.com/gateway.do"
         }
     },

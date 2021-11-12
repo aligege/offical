@@ -1,7 +1,7 @@
 import { BaseOfficalController } from "./BaseOfficalController"
 import { GExtAccountSer } from "../Service/ExtAccountService"
-import { EAccountFrom } from "cgserver/lib/Framework/Service/AccountService"
 import { GExtUserSer } from "../Service/ExtUserService"
+import { EAccountFrom } from "cgserver/lib/Framework/Service/ini"
 
 export class LoginController extends BaseOfficalController
 {

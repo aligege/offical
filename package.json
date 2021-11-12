@@ -10,7 +10,7 @@
   "dependencies": {
     "@types/cheerio": "^0.22.29",
     "@types/sha1": "^1.1.2",
-    "cgserver": "^3.0.1",
+    "cgserver": "^4.1.0",
     "cheerio": "^1.0.0-rc.10",
     "sha1": "^1.1.1"
   },

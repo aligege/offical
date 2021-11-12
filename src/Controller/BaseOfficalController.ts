@@ -1,7 +1,7 @@
 import { ExtUserModel } from '../Service/ExtUserService';
-import { BaseUserController } from 'cgserver/lib/Framework/WebServer/Controller/BaseUserController';
+import { MongoBaseUserController } from 'cgserver/lib/Framework/WebServer/Controller/MongoBaseUserController';
 
-export class BaseOfficalController extends BaseUserController<ExtUserModel>
+export class BaseOfficalController extends MongoBaseUserController<ExtUserModel>
 {
 
 }
