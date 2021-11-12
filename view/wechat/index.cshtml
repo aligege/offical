@@ -1,0 +1,15 @@
+<html>
+    <head></head>
+    <body>
+        <script src="/statics/js/jquery-2.0.3.min.js"></script>
+        <script src="https://cdn.bootcss.com/layer/2.3/layer.js"></script>
+        <link href="https://cdn.bootcss.com/layer/2.3/skin/layer.css" rel="stylesheet">
+        <script>
+            let appid="wx80f0f10fe1304e9d"
+            let url = "https://open.weixin.qq.com/connect/qrconnect?appid="+appid
+            url+="&redirect_uri="+encodeURI("http://www.eryinet.com/wechat/callback")
+            url+="&response_type=code&scope=snsapi_login&state=423424152134"
+            window.location.href=url
+        </script>
+    </body>
+</html>

@@ -1,0 +1,106 @@
+<% include Modules/Offical/View/Common2/header.cshtml %>
+<div class="login-container animated fadeInDown">
+    <div class="loginbox bg-white">
+        <form name="login_form" class="form-horizontal">
+            <div class="loginbox-title">登陆</div>
+            <div style="width:100px;height:20px"></div>
+            <div class="loginbox-textbox">
+                <input id="phone" type="text" class="form-control" placeholder="手机号码" />
+            </div>
+            <div class="loginbox-textbox">
+                <input id="password" type="password" class="form-control" placeholder="密码" />
+            </div>
+            <div class="loginbox-submit">
+                <button id="btn_login" type="button" class="btn btn-primary btn-block">登陆</button>
+            </div>
+        </form>
+    </div>
+    <div class="logobox">
+    </div>
+</div>
+<script src="/statics/custom/tool.js"></script>
+<script>
+    $('#btn_login').on('click', ()=>
+    {
+        $.ajax({
+            type: "POST",
+            url: "http://www.eryinet.com:8888/auth/phonelogin",
+            //url: "http://127.0.0.1:8888/auth/emaillogin",
+            dataType: 'json',
+            data:
+            {
+                app_id:"appid_42313131",
+                app_secret:"apps_FDS4342J34JL432",
+                phone:$("#phone").val(),
+                password:$("#password").val()
+            },
+            xhrFields: {
+                withCredentials: true
+            },
+            crossDomain: true,
+            success:(jsonData)=>
+            {
+                if(jsonData.errcode)
+                {
+                    layer.msg(JSON.stringify(jsonData.errcode), {icon: 5, time: 2000});
+                }
+                else
+                {
+                    $.ajax({
+                        type: "POST",
+                        url: "/login/login",
+                        dataType: 'json',
+                        data:
+                        {
+                            unionid:jsonData.unionid,
+                            openid:jsonData.openid
+                        },
+                        xhrFields:
+                        {
+                            withCredentials: true
+                        },
+                        crossDomain: true,
+                        success:(jsonData)=>
+                        {
+                            if(jsonData.err)
+                            {
+                                layer.msg(jsonData.err, {icon: 5, time: 2000});
+                            }
+                            else
+                            {
+                                let need_ret=false
+                                if (document.referrer.length>0&&document.referrer.origin+document.referrer.pathname!=window.location.origin+window.location.pathname) 
+                                {
+                                    let pre_root=tool.getRootPath(document.referrer)
+                                    if(document.referrer.origin!=pre_root)
+                                    {
+                                        let pre_root=window.document.referrer.origin
+                                        let cur_root=window.location.origin
+                                        if(pre_root==cur_root)
+                                        {
+                                            need_ret=true
+                                        }
+                                    }
+                                }
+                                if(need_ret)
+                                {
+                                    window.history.back()
+                                }
+                                else
+                                {
+                                    window.location.href="/System"
+                                }
+                            }
+                        }
+                    })
+                }
+            },
+            error:(err)=>
+            {
+                console.log(JSON.stringify(err))
+            }
+        })
+    })
+</script>
+
+<% include Modules/Offical/View/Common2/footer.cshtml %>

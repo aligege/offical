@@ -1,0 +1,28 @@
+<script src="/statics/custom/tool.js"></script>
+<script>
+    let need_ret=false
+    if (window.parent.document.referrer.length>0) 
+    {
+        if(window.parent.document.referrer!=window.parent.location.href)
+        {
+            let pre_root=tool.getRootPath(window.parent.document.referrer)
+            if(window.parent.document.referrer!=pre_root
+                &&window.parent.document.referrer!=(pre_root+"/"))
+            {
+                let cur_root=tool.getRootPath(window.parent.location.href)
+                if(pre_root==cur_root)
+                {
+                    need_ret=true
+                }
+            }
+        }
+    }
+    if(need_ret)
+    {
+        window.parent.location.href=window.parent.document.referrer
+    }
+    else
+    {
+        window.parent.location.href="/Panel"
+    }
+</script>

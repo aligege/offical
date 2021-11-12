@@ -1,0 +1,255 @@
+<% include Modules/Offical/View/Common/header.cshtml %>
+<script src="/statics/custom/vue-page.js"></script>
+<div id="app" class="page-body">
+    <div class="row">
+        <div class="col-xs-12 col-md-12">
+            <div class="widget">
+                <div class="widget-header ">
+                    <span class="widget-caption">可学习资源</span>
+                    <div class="widget-buttons">
+                        <a href="#" data-toggle="maximize">
+                            <i class="fa fa-expand"></i>
+                        </a>
+                        <a href="#" data-toggle="collapse">
+                            <i class="fa fa-minus"></i>
+                        </a>
+                        <a href="#" data-toggle="dispose">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="widget-body">
+                    <div style="margin:10px">
+                        <button class="btn  purple" type="button" @click="addShort"><i class="fa fa-plus"></i> 新增</button>
+                    </div>
+                    <div>
+                        <div class="col-sm-5">
+                            
+                        </div>
+                        <div class="col-sm-7">
+                            <vue-nav :cur="cur" :all="all" :url="url" :total="total" :jump_cb="onPage"></vue-nav>
+                        </div>
+                    </div>
+                    <table id="tb_short_list" class="table table-bordered table-striped">
+                        <thead>
+                            <tr style="font-size: 14px;">
+                                <th>短码</th>
+                                <th>类型</th>
+                                <th>权限</th>
+                                <th>内容</th>
+                                <th>创建时间</th>
+                                <th>访问次数</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr v-for="m in shorts" :key="m.id">
+                                <td>{{m.id}}</td>
+                                <td>
+                                    <span v-if="m.type_id==0">未分类</span>
+                                    <span v-else-if="m.type_id==1">url</span>
+                                    <span v-else-if="m.type_id==2">次码</span>
+                                    <span v-else-if="m.type_id==3">内容</span>
+                                </td>
+                                <td>
+                                    <span v-if="m.show_type==0">全见</span>
+                                    <span v-else-if="m.show_type==1">短码</span>
+                                </td>
+                                <td>{{m.content}}</td>
+                                <td>{{convertTime(m.create_time)}}</td>
+                                <td>{{m.read}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="row">
+                        <div class="col-sm-5"></div>
+                        <div class="col-sm-7">
+                            <vue-nav :cur="cur" :all="all" :url="url" :total="total" :jump_cb="onPage"></vue-nav>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="padding-left: 50px;">动态添加短码接口post:http://www.eryinet.com/short/add<br/>{content:"wwww.baidu.com",type_id:1,show_type:0}<br/><br/></div>
+    <div class="row" style="padding-left: 50px;">动态获取短码接口post:http://www.eryinet.com/short/get<br/>{code:47176}<br/><br/></div>
+    <div class="row" style="padding-left: 50px;">其中type_id=0:未分类，1：url，2：次码，3：内容<br/><br/></div>
+    <div class="row" style="padding-left: 50px;">其中show_type=0:全可见，1：短码查询可见<br/><br/></div>
+</div>
+
+<!-- /Page Body -->
+
+<!--Page Related Scripts-->
+<script src="/statics/js/charts/morris/raphael-2.0.2.min.js"></script>
+<script src="/statics/js/datatable/jquery.dataTables.min.js"></script>
+<script src="/statics/js/datatable/ZeroClipboard.js"></script>
+<script src="/statics/js/datatable/dataTables.tableTools.min.js"></script>
+<script src="/statics/js/datatable/dataTables.bootstrap.min.js"></script>
+<script src="/statics/js/datetime/bootstrap-datetimepicker.min.js"></script>
+<link href="/statics/css/bootstrap/bootstrap-datetimepicker.min.css" rel="stylesheet" />
+<script>
+    var vm_list = new Vue({
+        el: '#app',
+        data: 
+        {
+            shorts:[],
+            cur: 0,
+            all: 0,
+            total: 0,
+            url:window.location.href
+        },
+        components:
+        {
+            'vue-nav': Vnav
+        },
+        created()
+        {
+            this.initShorts(0)
+        },
+        methods:
+        {
+            convertTime:function(time)
+            {
+                return moment(time).format('YYYY-M-D h:mm:ss')
+            },
+            onPage:function(page)
+            {
+                this.initShorts(this.page-1)
+            },
+            initShorts:function(page)
+            {
+                $.ajax({
+                    type: "POST",
+                    url: "/short/list",
+                    dataType: 'json',
+                    data:{
+                        page:page,
+                        page_num:10
+                    },
+                    xhrFields: {
+                        withCredentials: true
+                    },
+                    crossDomain: true,
+                    success:(response)=>
+                    {
+                        this.cur=response.page
+                        this.all=response.total_page
+                        this.total=response.total_num
+                        this.shorts=response.shorts||[]
+                    },
+                    error:function(){
+                
+                    },
+                })
+            },
+            addShort:function()
+            {
+                layer.open({
+                    type: 1,
+                    title: '短码-新增短码',
+                    shadeClose: true, //点击遮罩关闭层
+                    maxmin: true,
+                    shade: 0.5,
+                    area : ['800px' , '370px'],
+                    content: $('#id_add_short')
+                });
+            },
+        }
+    });
+</script>
+<div>
+    <div id="addShort">
+        <div id="id_add_short" style="display: none;padding:50px;padding-top:20px;padding-bottom:10px">
+            <table id="tb_short" class="table table-bordered table-striped">
+                <tbody>
+                    <tr>
+                        <td>短码类型</td>
+                        <td>
+                            <select v-model="type_id">
+                                <option value="0">未分类</option>
+                                <option value="1">url</option>
+                                <option value="2">次码</option>
+                                <option value="3">内容</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>显示类型</td>
+                        <td>
+                            <select v-model="show_type">
+                                <option value="0">全显示</option>
+                                <option value="1">短码可见</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>内容</td>
+                        <td>
+                            <input style="width:300px" type="text" step="1" class="form-control" v-model="content">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div style="text-align:center;padding-top:10px">
+                <button class="btn shiny btn-primary" type="button" @click="addShort">新增短码</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var vm_op = new Vue({
+            el: '#addShort',
+            data: 
+            {
+                type_id:1,
+                show_type:0,
+                content:""
+            },
+            computed:{
+            },
+            methods: 
+            {
+                addShort:function()
+                {
+                    if(!this.content)
+                    {
+                        layer.msg("内容不能为空", {icon: 5, time: 2000})
+                        return
+                    }
+                    let short=
+                    {
+                        type_id:parseInt(this.type_id),
+                        show_type:parseInt(this.show_type),
+                        content:this.content
+                    }
+                    let self = this
+                    $.ajax({
+                        type: "POST",
+                        url: "/short/add",
+                        dataType: 'json',
+                        data:short,
+                        xhrFields: {
+                            withCredentials: true
+                        },
+                        crossDomain: true,
+                        success:function(response)
+                        {
+                            if(response.errcode)
+                            {
+                                layer.msg(response.errcode, {icon: 5, time: 2000})
+                                return
+                            }
+                            vm_list.shorts.push(response.short)
+                            vm_list.total+=1
+                            layer.closeAll()
+                            layer.msg("添加成功", {icon: 1, time: 2000})
+                        },
+                        error:function(err){
+                            layer.msg("请求错误", {icon: 5, time: 2000})
+                        },
+                    })
+                }
+            }
+        });
+    </script>
+</div>
+<% include Modules/Offical/View/Common/footer.cshtml %>

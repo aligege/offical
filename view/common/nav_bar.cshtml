@@ -1,0 +1,94 @@
+<script src="http://res.wx.qq.com/connect/zh_CN/htmledition/js/wxLogin.js"></script>
+<div id="app">
+    <div class="navbar-fixed-container">
+        <div class="navbar navbar-inverse navbar-fixed-top affix-top" data-spy="affix" data-offset-top="1">
+            <nav role="navigation" aria-label="Top Level">
+                <div class="container">
+                    <div class="nav navbar-header">
+                        <a class="navbar-brand" href="/"><span>而已加密</span></a>
+                    </div>
+                    <div class="navbar-collapse collapse" id="nav">
+                        <ul class="nav navbar-nav navbar-left">
+                            <!-- <li><a id="nav-docs" href="/docs">积分棋牌</a></li>
+                            <li><a id="nav-updates" href="/updates">房卡棋牌</a></li>
+                            <li><a id="nav-blogs" href="/blogs">产品体验</a></li>
+                            <li :class="{'active':price}"><a id="nav-faqs" href="/index/price">产品介绍</a></li> -->
+                            <li :class="{'active':faq}"><a id="nav-faqs" href="/index/faq">常见问题</a></li>
+                            <li :class="{'active':contact}"><a href="/index/contact" id="nav-extensions">联系我们</a></li>
+                            <!-- <li class="search visible-xs"><a href="/Search">Search</a></li> -->
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <!-- <li>
+                                <a href="/Search" title="Search" class="btn search-btn" id="nav-search">
+                                <img class="search-icon" src="/statics/module/xoffical/icons/search.svg" width="16px" height="16px" alt="Search">
+                                <img class="search-icon-inverted" src="/statics/module/xoffical/icons/search_dark.svg" width="16px" height="16px" alt="Search">
+                                </a>
+                            </li>
+                            <li class="search">
+                                <form class="nav-search search-form" aria-label="Search"> 
+                                    <div class="input-group" aria-hidden="true">
+                                        <input type="text" name="q" class="search-box form-control" placeholder="Search Docs" aria-label="Search text">
+                                        <span class="input-group-btn">
+                                            <button tabindex="0" class="btn" type="submit" aria-label="Search">
+                                                    <img class="search-icon" src="/statics/module/xoffical/icons/search.svg" width="16px" height="16px" alt="Search">
+                                                    <img class="search-icon-inverted" src="/statics/module/xoffical/icons/search_dark.svg" width="16px" height="16px" alt="Search">
+                                            </button>
+                                        </span>
+                                    </div>
+                                </form>	                    
+                            </li> -->
+                            <!-- this was hiden in the home and download page, keeping it for now -->
+                            <li>
+                                <a itemprop="downloadUrl" class="link-button" href="~/wechat" id="nav-download">
+                                    <span class="hidden-sm">注册登陆</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <script>
+            new Vue({
+                el: '#nav',
+                data: 
+                {
+                    home:false,
+                    faq:false,
+                    price:false,
+                    contact:false
+                },
+                created() {
+                    this.faq=window.location.href.includes("index/faq")
+                    this.price=window.location.href.includes("index/price")
+                    this.contact=window.location.href.includes("index/contact")
+                    if(window.location.href==window.location.origin
+                        ||window.location.href==window.location.origin+"/")
+                    {
+                        this.home=true
+                    }
+                },
+                methods:
+                {
+                    wxLogin:function()
+                    {
+                        var obj = new WxLogin({
+                            self_redirect:true,
+                            id:"login_container", 
+                            appid: "", 
+                            scope: "", 
+                            redirect_uri: "",
+                            state: "",
+                            style: "",
+                            href: ""
+                        });
+                    }
+                }
+            })
+        </script>
+    </div>
+    <div class="updates-banner home">
+        <div class="container">
+            <p class="message">而已加密，为您的信息保驾护航!</p>
+        </div>
+    </div>

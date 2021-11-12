@@ -1,0 +1,2052 @@
+.topNav {
+	HEIGHT: 53px; BACKGROUND: #4095d5; POSITION: relative; Z-INDEX: 11
+}
+.topNav .pageCenter {
+	POSITION: relative
+}
+.topNav A {
+	COLOR: #fff; LINE-HEIGHT: 32px
+}
+.topLeft {
+	POSITION: absolute; FLOAT: left
+}
+.topLeft A.toplink {
+	MARGIN: 0px 10px;
+    font-size:20px;
+}
+.topLeft UL LI {
+	OVERFLOW: hidden; CURSOR: pointer; BORDER-TOP: #4095d5 1px solid; BORDER-RIGHT: #4095d5 1px solid; BORDER-BOTTOM: #4095d5 1px solid; FLOAT: left; BORDER-LEFT: #4095d5 1px solid
+}
+.topLeft UL LI SPAN {
+	POSITION: relative; PADDING-LEFT: 10px
+}
+.topLeft UL LI SPAN B {
+	MARGIN-BOTTOM: -3px; BORDER-TOP: #fff 4px solid; HEIGHT: 0px; BORDER-RIGHT: transparent 4px dashed; WIDTH: 0px; BORDER-BOTTOM: transparent 4px dashed; MARGIN-LEFT: 5px; BORDER-LEFT: transparent 4px dashed; DISPLAY: inline-block; TOP: 6px; _overflow: hidden; _position: absolute; transition: transform .2s ease-in 0s; -webkit-transition: -webkit-transform .2s ease-in 0s
+}
+* + HTML .topLeft UL LI SPAN B {
+	MARGIN-TOP: -10px
+}
+.topLeft UL LI.navHover:hover B {
+	MARGIN-BOTTOM: 3px; FILTER: progid:DXImageTransform.Microsoft.BasicImage(rotation=2); transform: rotate(180deg); -webkit-transform: rotate(180deg)
+}
+.topLeft EM {
+	POSITION: absolute; COLOR: #8a9893; LEFT: 90px; TOP: 6px
+}
+.topLeft UL LI.navNormal {
+	HEIGHT: 28px
+}
+.topLeft UL LI.navHover {
+	BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid; OVERFLOW-Y: hidden; BORDER-BOTTOM: #fff 1px solid; FLOAT: left; BORDER-LEFT: #fff 1px solid
+}
+.authority {
+	WIDTH: 92px
+}
+.language {
+	WIDTH: 54px
+}
+.topSubList {
+	BACKGROUND: #4095d5; TEXT-ALIGN: left; LINE-HEIGHT: 1.8
+}
+.topSubList A {
+	COLOR: #fff; DISPLAY: block; LINE-HEIGHT: 24px
+}
+.topLeft UL LI .topSubList A:hover {
+	COLOR: #fff
+}
+.client A {
+	TEXT-INDENT: 24px
+}
+.languageBox {
+	TEXT-ALIGN: center
+}
+.client A.cs_ico {
+	BACKGROUND: url(http://img1.chuangshi.qq.com/book/p1/ico/cs.png) no-repeat 8% 45%
+}
+.client A.cs_ico:hover {
+	BACKGROUND: url(http://img1.chuangshi.qq.com/book/p1/ico/cs.png) #29adff no-repeat 8% 45%
+}
+.client A.yq_ico {
+	BACKGROUND: url(http://img1.chuangshi.qq.com/book/p1/ico/yunqi.png) no-repeat 8% 45%
+}
+.client A.yq_ico:hover {
+	BACKGROUND: url(http://img1.chuangshi.qq.com/book/p1/ico/yunqi.png) #29adff no-repeat 8% 45%
+}
+.client A.ds_ico {
+	BACKGROUND: url(http://img1.chuangshi.qq.com/book/p1/ico/dushu.png) no-repeat 8% 45%
+}
+.client A.ds_ico:hover {
+	BACKGROUND: url(http://img1.chuangshi.qq.com/book/p1/ico/dushu.png) #29adff no-repeat 8% 45%
+}
+.client A.bookIntnet {
+	BACKGROUND: url(http://img1.chuangshi.qq.com/book/p1/ico/star2.png) no-repeat 8% 45%
+}
+.client A.bookIntnet:hover {
+	BACKGROUND: url(http://img1.chuangshi.qq.com/book/p1/ico/star2.png) #29adff no-repeat 8% 45%
+}
+.bookIos {
+	BACKGROUND: url(http://img1.chuangshi.qq.com/book/p1/ico/iOS2.png) no-repeat 8% 40%
+}
+.topLeft UL LI .client .bookIos:hover {
+	BACKGROUND: url(http://img1.chuangshi.qq.com/book/p1/ico/iOS2.png) #29adff no-repeat 8% 40%
+}
+.bookAndroid {
+	BACKGROUND: url(http://img1.chuangshi.qq.com/book/p1/ico/anzhuo2.png) no-repeat 8% 40%
+}
+.topLeft UL LI .client .bookAndroid:hover {
+	BACKGROUND: url(http://img1.chuangshi.qq.com/book/p1/ico/anzhuo2.png) #29adff no-repeat 8% 40%
+}
+.loginBox {
+	RIGHT: 340px; POSITION: absolute; TOP: 1px
+}
+.loginBox A {
+	FLOAT: right
+}
+.loginBox .navline {
+	FLOAT: right; COLOR: #fff; MARGIN-TOP: 6px
+}
+A.userName {
+	TEXT-ALIGN: center
+}
+A.exit {
+	WIDTH: 30px; MARGIN: 0px 3px 0px 10px
+}
+A.reg {
+	WIDTH: 42px
+}
+A.login {
+	WIDTH: 62px
+}
+.topRight {
+	HEIGHT: 30px; POSITION: relative; FLOAT: right; _width: 346px
+}
+.topRight A {
+	FLOAT: left; TEXT-ALIGN: center
+}
+.topRight SPAN.navline {
+	FLOAT: left; COLOR: #fff; MARGIN-TOP: 7px; MARGIN-RIGHT: 14px
+}
+A.author_Zone {
+	WIDTH: 80px
+}
+A.pay {
+	PADDING-RIGHT: 22px; _padding-right: 0
+}
+.topRight A B {
+	BORDER-TOP: #fff 4px solid; HEIGHT: 0px; BORDER-RIGHT: transparent 4px dashed; WIDTH: 0px; VERTICAL-ALIGN: middle; BORDER-BOTTOM: transparent 4px dashed; MARGIN-LEFT: 5px; BORDER-LEFT: transparent 4px dashed; MARGIN-TOP: 4px; DISPLAY: inline-block; TOP: 12px; _overflow: hidden; _position: absolute; transition: transform .2s ease-in 0s; -webkit-transition: -webkit-transform .2s ease-in 0s; _margin-top: 0
+}
+.hover.myreader B {
+	FILTER: progid:DXImageTransform.Microsoft.BasicImage(rotation=2); MARGIN-TOP: 4px; transform: rotate(180deg); -webkit-transform: rotate(180deg)
+}
+.hover.user_center B {
+	FILTER: progid:DXImageTransform.Microsoft.BasicImage(rotation=2); MARGIN-TOP: 4px; transform: rotate(180deg); -webkit-transform: rotate(180deg)
+}
+.myreader {
+	BORDER-TOP: #4095d5 1px solid; BORDER-RIGHT: #4095d5 1px solid; WIDTH: 98px; BORDER-BOTTOM: #4095d5 1px; BORDER-LEFT: #4095d5 1px solid
+}
+.user_center {
+	BORDER-TOP: #4095d5 1px solid; BORDER-RIGHT: #4095d5 1px solid; WIDTH: 98px; BORDER-BOTTOM: #4095d5 1px; BORDER-LEFT: #4095d5 1px solid
+}
+.hover.myreader {
+	BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid; BORDER-BOTTOM: #fff 1px; BORDER-LEFT: #fff 1px solid
+}
+.hover.user_center {
+	BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid; BORDER-BOTTOM: #fff 1px; BORDER-LEFT: #fff 1px solid
+}
+A.p_msg_mini {
+	POSITION: absolute; COLOR: #ff0; LEFT: 353px
+}
+.bookrack {
+	BORDER-TOP: #fff 1px; BORDER-RIGHT: #fff 1px solid; BACKGROUND: #4095d5; BORDER-BOTTOM: #fff 1px solid; POSITION: absolute; COLOR: #fff; BORDER-LEFT: #fff 1px solid; Z-INDEX: 21; TOP: 30px
+}
+.user_menu {
+	BORDER-TOP: #fff 1px; BORDER-RIGHT: #fff 1px solid; BACKGROUND: #4095d5; BORDER-BOTTOM: #fff 1px solid; POSITION: absolute; COLOR: #fff; BORDER-LEFT: #fff 1px solid; Z-INDEX: 21; TOP: 30px
+}
+.navDownLoad {
+	BORDER-TOP: #fff 1px; BORDER-RIGHT: #fff 1px solid; BACKGROUND: #4095d5; BORDER-BOTTOM: #fff 1px solid; POSITION: absolute; COLOR: #fff; BORDER-LEFT: #fff 1px solid; Z-INDEX: 21; TOP: 30px
+}
+.navDownLoad {
+	WIDTH: 96px; LEFT: 0px
+}
+.navDownLoad A {
+	BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 10% 50%; FLOAT: none; TEXT-ALIGN: left; PADDING-LEFT: 26px; DISPLAY: block
+}
+.downStar {
+	BACKGROUND-IMAGE: url(http://img1.chuangshi.qq.com/book/p1/ico/wstar.png)
+}
+.downIos {
+	BACKGROUND-IMAGE: url(http://img1.chuangshi.qq.com/book/p1/ico/ios.png)
+}
+.downAn {
+	BACKGROUND-IMAGE: url(http://img1.chuangshi.qq.com/book/p1/ico/anzhuo.png)
+}
+.nav_hover_list {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.nav_hover_list A {
+	FLOAT: none; DISPLAY: block
+}
+.mainNavWrap {
+	PADDING-BOTTOM: 15px; PADDING-TOP: 15px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.bookrack {
+	OVERFLOW: hidden; WIDTH: 98px; RIGHT: 246px; TEXT-ALIGN: center; DISPLAY: none
+}
+.bookrack A:hover {
+	BACKGROUND: #29adff; COLOR: #fff
+}
+.user_menu A:hover {
+	BACKGROUND: #29adff; COLOR: #fff
+}
+.user_menu {
+	WIDTH: 98px; RIGHT: 146px; DISPLAY: none
+}
+.bookrack P {
+	HEIGHT: 30px; BORDER-BOTTOM: #fff 1px dotted; TEXT-ALIGN: left; LINE-HEIGHT: 30px
+}
+.user_menu P {
+	HEIGHT: 30px; BORDER-BOTTOM: #fff 1px dotted; TEXT-ALIGN: left; LINE-HEIGHT: 30px
+}
+.bookrack P {
+	TEXT-ALIGN: center
+}
+.user_menu P SPAN A {
+	MARGIN-LEFT: 6px; MARGIN-TOP: 4px
+}
+.user_menu P SPAN A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#pointy_msg {
+	HEIGHT: 6px; WIDTH: 12px; BACKGROUND: url(http://img1.chuangshi.qq.com/book/p1/ico/pointy.gif) no-repeat; POSITION: absolute; LEFT: 33%; TOP: -5px
+}
+#close_msg {
+	HEIGHT: 10px; WIDTH: 10px; BACKGROUND: url(http://img1.chuangshi.qq.com/chuangshi/p1/ico/close_msg.gif) no-repeat; RIGHT: 4px; POSITION: absolute; TOP: 12px; TEXT-INDENT: -9999em
+}
+#topnav_msg {
+	BORDER-TOP: #8e8e8e 1px solid; BORDER-RIGHT: #8e8e8e 1px solid; WIDTH: 100px; BACKGROUND: #fafafa; BORDER-BOTTOM: #8e8e8e 1px solid; POSITION: absolute; PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 10px; LEFT: 100px; BORDER-LEFT: #8e8e8e 1px solid; DISPLAY: none; LINE-HEIGHT: 1; TOP: 40px; PADDING-RIGHT: 10px
+}
+#topnav_msg A {
+	FLOAT: none; COLOR: #4095d5
+}
+#topnav_msg A:hover {
+	TEXT-DECORATION: underline
+}
+.bookheader {
+	HEIGHT: 114px; PADDING-BOTTOM: 7px; PADDING-TOP: 7px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.logo {
+	PADDING-TOP: 13px; MARGIN-RIGHT: 76px
+}
+.titleSearch {
+	BORDER-TOP: #5ea3e6 2px solid; HEIGHT: 34px; BORDER-RIGHT: #5ea3e6 2px solid; WIDTH: 500px; BORDER-BOTTOM: #5ea3e6 2px solid; BORDER-LEFT: #5ea3e6 2px solid; MARGIN-TOP: 33px
+}
+.titleSearch SPAN {
+	OVERFLOW: hidden; HEIGHT: 12px; FLOAT: left; BORDER-LEFT: #ccc 2px solid; MARGIN-TOP: 12px
+}
+.titleSearch .clearInput {
+	BORDER-TOP-STYLE: none; HEIGHT: 34px; WIDTH: 391px; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-BOTTOM-STYLE: none; FLOAT: left; COLOR: #999; FONT: 14px/34px 'Î¢ÈíÑÅºÚ'; BORDER-RIGHT-STYLE: none; PADDING-LEFT: 5px; BORDER-LEFT-STYLE: none
+}
+.titleSearch .searchBtn {
+	CURSOR: pointer; HEIGHT: 34px; WIDTH: 36px; BACKGROUND: url(http://img1.chuangshi.qq.com/book/p1/ico/searchBtn.png) no-repeat; FLOAT: right
+}
+.searchClass {
+	CURSOR: pointer; HEIGHT: 30px; WIDTH: 62px; BACKGROUND: url(http://img1.chuangshi.qq.com/book/p1/ico/adown.png) no-repeat 88% 65%; POSITION: relative; FLOAT: left; LINE-HEIGHT: 30px; TEXT-INDENT: 7px
+}
+.searchClass EM {
+	FONT: 14px/34px 'Î¢ÈíÑÅºÚ'; DISPLAY: block
+}
+.searchClass_SubBox {
+	BORDER-TOP: #5ea3e6 2px; BORDER-RIGHT: #5ea3e6 2px solid; WIDTH: 62px; BACKGROUND: #fff; BORDER-BOTTOM: #5ea3e6 2px solid; POSITION: absolute; FONT: 14px/1.8 'Î¢ÈíÑÅºÚ'; LEFT: -2px; BORDER-LEFT: #5ea3e6 2px solid; Z-INDEX: 100; DISPLAY: none; TOP: 34px
+}
+.searchClass_SubBox A {
+	DISPLAY: block
+}
+.searchClass_SubBox A:hover {
+	BACKGROUND: #5ea3e6; COLOR: #fff
+}
+.hotWords {
+	COLOR: #999; PADDING-BOTTOM: 0px; PADDING-TOP: 10px; FONT: 14px/1.8 'Î¢ÈíÑÅºÚ'; PADDING-LEFT: 7px; CLEAR: both; PADDING-RIGHT: 0px
+}
+.hotWords A {
+	COLOR: #999; MARGIN-RIGHT: 10px
+}
+.headQrCode {
+	BORDER-TOP: #ddd 1px solid; HEIGHT: 111px; BORDER-RIGHT: #ddd 1px solid; WIDTH: 103px; BORDER-BOTTOM: #ddd 1px solid; POSITION: relative; TEXT-ALIGN: center; BORDER-LEFT: #ddd 1px solid
+}
+.headQrCode P {
+	PADDING-TOP: 3px
+}
+.headQrCode .close {
+	HEIGHT: 19px; WIDTH: 19px; BACKGROUND: url(http://img1.chuangshi.qq.com/book/p1/ico/codeClose.png) no-repeat; RIGHT: -2px; POSITION: absolute; TOP: -1px
+}
+BODY {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+DIV {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+DL {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+DT {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+DD {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+UL {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+OL {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+LI {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+H1 {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+H2 {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+H3 {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+H4 {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+H5 {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+H6 {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+PRE {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+FORM {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+FIELDSET {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+INPUT {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+P {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+A {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+BLOCKQUOTE {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+TH {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+H1 {
+	FONT-SIZE: 14px
+}
+H2 {
+	FONT-SIZE: 14px
+}
+H3 {
+	FONT-SIZE: 14px
+}
+H4 {
+	FONT-SIZE: 14px
+}
+H5 {
+	FONT-SIZE: 14px
+}
+H6 {
+	FONT-SIZE: 14px
+}
+OL {
+	LIST-STYLE: none none outside
+}
+UL {
+	LIST-STYLE: none none outside
+}
+LI {
+	LIST-STYLE: none none outside
+}
+TABLE {
+	BORDER-SPACING: 0
+}
+FIELDSET {
+	BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; BORDER-LEFT: 0px
+}
+IMG {
+	BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; BORDER-LEFT: 0px
+}
+BODY {
+	COLOR: #666; TEXT-ALIGN: left; FONT: 12px/1.8 "ËÎÌå",Arial,"Î¢ÈíÑÅºÚ"
+}
+INPUT:unknown {
+	BORDER-TOP-STYLE: none; BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; PADDING-LEFT: 0px; BORDER-LEFT-STYLE: none; PADDING-RIGHT: 0px
+}
+A IMG {
+	BORDER-TOP-STYLE: none; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none
+}
+A {
+	TEXT-DECORATION: none; COLOR: #666; OUTLINE-STYLE: none
+}
+TEXTAREA {
+	OVERFLOW: hidden; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; BORDER-BOTTOM: #ccc 1px solid; FONT: 12px/1.8 'ËÎÌå'; OUTLINE-STYLE: none; PADDING-LEFT: 5px; BORDER-LEFT: #ccc 1px solid; resize: none
+}
+INPUT {
+	BORDER-TOP-STYLE: none; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; OUTLINE-STYLE: none; BORDER-LEFT-STYLE: none
+}
+.cf {
+	ZOOM: 1
+}
+.cf:before {
+	CONTENT: ""; DISPLAY: table
+}
+.cf:after {
+	CONTENT: ""; DISPLAY: table
+}
+.cf:after {
+	CLEAR: both
+}
+I {
+	FONT-STYLE: normal
+}
+EM {
+	FONT-STYLE: normal
+}
+.cfboth {
+	CLEAR: both
+}
+.fl {
+	FLOAT: left
+}
+.fr {
+	FLOAT: right
+}
+.frontLogo {
+	HEIGHT: 94px; WIDTH: 224px; FLOAT: left; MARGIN-RIGHT: 36px
+}
+.frontSearch {
+	FLOAT: left; PADDING-TOP: 30px
+}
+.fSearchBox {
+	MARGIN-BOTTOM: 10px; BORDER-TOP: #ccc 1px solid; HEIGHT: 24px; BORDER-RIGHT: #ccc 1px solid; WIDTH: 358px; BORDER-BOTTOM: #ccc 1px solid; POSITION: relative; BORDER-LEFT: #ccc 1px solid; Z-INDEX: 50
+}
+.fSearchBox A {
+	HEIGHT: 23px; WIDTH: 30px; BACKGROUND: url(http://img1.chuangshi.qq.com/book/p1/ico/fsearch.jpg) no-repeat; RIGHT: 1px; POSITION: absolute; TOP: 1px
+}
+.fSearchBox SPAN {
+	CURSOR: pointer; BORDER-RIGHT: #ccc 1px solid; WIDTH: 54px; POSITION: absolute; LEFT: 0px; LINE-HEIGHT: 1; TOP: 6px; TEXT-INDENT: 10px
+}
+.fSearchBox B {
+	BORDER-TOP: 4px solid; HEIGHT: 0px; BORDER-RIGHT: 4px solid; WIDTH: 0px; BORDER-BOTTOM: 4px solid; POSITION: absolute; LEFT: 39px; BORDER-LEFT: 4px solid; _overflow: hidden
+}
+.fSearchBox B.up {
+	BORDER-TOP-STYLE: dashed; BORDER-TOP-COLOR: transparent; BORDER-BOTTOM-STYLE: solid; BORDER-LEFT-COLOR: transparent; BORDER-BOTTOM-COLOR: #000; BORDER-RIGHT-STYLE: dashed; BORDER-LEFT-STYLE: dashed; BORDER-RIGHT-COLOR: transparent; TOP: 7px
+}
+.fSearchBox B.down {
+	BORDER-TOP-STYLE: solid; BORDER-TOP-COLOR: #000; BORDER-BOTTOM-STYLE: dashed; BORDER-LEFT-COLOR: transparent; BORDER-BOTTOM-COLOR: transparent; BORDER-RIGHT-STYLE: dashed; BORDER-LEFT-STYLE: dashed; BORDER-RIGHT-COLOR: transparent; TOP: 11px
+}
+.fSearchBox INPUT {
+	HEIGHT: 24px; WIDTH: 255px; BACKGROUND: none transparent scroll repeat 0% 0%; FLOAT: left; COLOR: #999; MARGIN-LEFT: 55px; LINE-HEIGHT: 24px
+}
+.fSearchSub {
+	BORDER-TOP: #ccc 1px; BORDER-RIGHT: #ccc 1px solid; WIDTH: 54px; BACKGROUND: #fff; BORDER-BOTTOM: #ccc 1px solid; POSITION: absolute; LEFT: -1px; BORDER-LEFT: #ccc 1px solid; DISPLAY: none; TOP: 24px; TEXT-INDENT: 10px
+}
+.fSearchSub LI {
+	CURSOR: pointer
+}
+.fSearchSub LI:hover {
+	COLOR: #ba2636
+}
+.hotWord {
+	PADDING-LEFT: 10px
+}
+.hotWord A {
+	MARGIN-RIGHT: 5px
+}
+.hotWord .hotCur {
+	COLOR: #0068b7
+}
+.hotWord A:hover {
+	COLOR: #0068b7
+}
+.classifyIndex LI A:hover {
+	COLOR: #0068b7
+}
+.frontthree A:hover {
+	COLOR: #0068b7
+}
+.classifyIndex {
+	WIDTH: 330px; FLOAT: right; PADDING-TOP: 14px
+}
+.classifyIndex LI {
+	COLOR: #999; LINE-HEIGHT: 2.1
+}
+.frontBanner {
+	PADDING-BOTTOM: 45px; PADDING-TOP: 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.frontBanner A {
+	OVERFLOW: hidden; POSITION: relative
+}
+.frontBanner SPAN {
+	HEIGHT: 101px; WIDTH: 221px; BACKGROUND: #fff; POSITION: absolute; LEFT: 1px; FILTER: alpha(opacity=90); TOP: -103px; opacity: 0.9
+}
+.frontBanner SPAN CITE {
+	FONT-SIZE: 13px; PADDING-BOTTOM: 0px; TEXT-ALIGN: justify; PADDING-TOP: 6px; PADDING-LEFT: 10px; TEXT-JUSTIFY: inter-ideograph; DISPLAY: block; PADDING-RIGHT: 10px
+}
+.frontBanner IMG {
+	DISPLAY: block
+}
+.frontBanner A {
+	FLOAT: left; MARGIN-RIGHT: 36px; _margin-right: 35px
+}
+.frontBanner A.mr0 {
+	MARGIN-RIGHT: 0px
+}
+.frontthree {
+	MARGIN-BOTTOM: 30px; FONT-SIZE: 14px
+}
+.frontthree LI SPAN {
+	COLOR: #80a5c3
+}
+.frontthree .fl {
+	WIDTH: 324px; MARGIN-RIGHT: 10px
+}
+.frontthree .fr {
+	BORDER-TOP: #d2e1f1 1px solid; BORDER-RIGHT: #d2e1f1 1px solid; WIDTH: 302px; BORDER-BOTTOM: #d2e1f1 1px solid; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 14px; BORDER-LEFT: #d2e1f1 1px solid; MARGIN-TOP: -11px; PADDING-RIGHT: 5px
+}
+.frontthree .fr SPAN {
+	COLOR: #ccd2d8; MARGIN: 0px 5px
+}
+.pageCenter {
+	WIDTH: 1002px; MARGIN: 0px auto;
+    padding-top:10px
+}
+.hidden {
+	DISPLAY: none
+}
+.alignLeft {
+	TEXT-ALIGN: left
+}
+.alignRight {
+	TEXT-ALIGN: right
+}
+.alignCenter {
+	TEXT-ALIGN: center
+}
+.fr {
+	FLOAT: right
+}
+.fl {
+	FLOAT: left
+}
+.mr10 {
+	MARGIN-RIGHT: 10px
+}
+.mb10 {
+	MARGIN-BOTTOM: 10px
+}
+.mb20 {
+	MARGIN-BOTTOM: 20px
+}
+.mr26 {
+	MARGIN-RIGHT: 26px
+}
+.mb25 {
+	MARGIN-BOTTOM: 25px
+}
+.mb40 {
+	MARGIN-BOTTOM: 40px
+}
+.noborder {
+	BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-TOP-WIDTH: 0px
+}
+.red {
+	COLOR: #e60012
+}
+.red2 {
+	COLOR: #ba2739
+}
+.blue {
+	COLOR: #0773c0
+}
+.pink {
+	COLOR: #fc6c83
+}
+.gray3 {
+	COLOR: #333
+}
+.gray6 {
+	COLOR: #666
+}
+.gray9 {
+	COLOR: #999
+}
+.f12 {
+	FONT-SIZE: 12px
+}
+.f14 {
+	FONT-SIZE: 14px
+}
+.listWrap {
+	CLEAR: both
+}
+.rankListWrap {
+	CLEAR: both
+}
+.rankList LI {
+	OVERFLOW: hidden; WIDTH: 196px; VERTICAL-ALIGN: bottom; BORDER-BOTTOM: #ddd 1px solid; POSITION: relative; ZOOM: 1; PADDING-LEFT: 10px; LINE-HEIGHT: 30px
+}
+.rankList LI A {
+	OVERFLOW: hidden; WIDTH: 198px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis; DISPLAY: block
+}
+.rankList LI A:hover {
+	COLOR: #4095d5
+}
+.rankList .more .red {
+	WIDTH: auto; BACKGROUND: url(http://img1.chuangshi.qq.com/book/p1/ico/gt.jpg) no-repeat 98% 50%; COLOR: #1e403f; TEXT-ALIGN: right; DISPLAY: block; PADDING-RIGHT: 32px
+}
+.rankList .more .red:hover {
+	COLOR: #4095d5
+}
+.rankHover {
+	OVERFLOW: hidden; PADDING-TOP: 7px
+}
+.detailWrap {
+	HEIGHT: 109px; POSITION: relative; DISPLAY: none; LINE-HEIGHT: 1.8
+}
+.detailWrap IMG {
+	POSITION: absolute; LEFT: -10px; TOP: 16px
+}
+.detailInfo {
+	POSITION: absolute; LEFT: 60px; TOP: 20px
+}
+.detailWrap H4 {
+	FONT: 700 12px/1.8 'ËÎÌå'
+}
+.detailWrap P {
+	COLOR: #999
+}
+.rankHover .detailWrap A {
+	WIDTH: auto; DISPLAY: inline
+}
+.rankHover .firstList .detailWrap {
+	DISPLAY: block
+}
+.rankHover .firstList .hidden {
+	OVERFLOW: hidden; WIDTH: 198px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis; DISPLAY: none
+}
+.rankHover .more {
+	BORDER-BOTTOM: #ddd 1px solid; PADDING-LEFT: 10px; LINE-HEIGHT: 30px
+}
+.threeTabBox {
+	HEIGHT: 30px; BACKGROUND: #e3e3e3
+}
+.threeTabBox EM {
+	COLOR: #fff; TEXT-ALIGN: center; FONT: 14px/30px 'ËÎÌå'; DISPLAY: block
+}
+.threeTabBox P {
+	FLOAT: left; COLOR: #333; FONT: 14px/30px 'ËÎÌå'; PADDING-LEFT: 27px
+}
+.threeTabBox SPAN {
+	CURSOR: pointer; HEIGHT: 20px; BACKGROUND: #e3e3e3; POSITION: relative; FLOAT: left; COLOR: #333; PADDING-BOTTOM: 0px; TEXT-ALIGN: center; PADDING-TOP: 0px; FONT: 12px/1.8 'ËÎÌå'; PADDING-LEFT: 5px; MARGIN-TOP: 10px; PADDING-RIGHT: 5px
+}
+.threeTabBox SPAN.tabCur {
+	BACKGROUND: #933948; COLOR: #fff
+}
+.threeTabBox SPAN CITE {
+	BORDER-TOP: #933948 4px solid; HEIGHT: 0px; BORDER-RIGHT: transparent 4px dashed; WIDTH: 0px; BORDER-BOTTOM: transparent 4px dashed; POSITION: absolute; LEFT: 45%; BORDER-LEFT: transparent 4px dashed; BOTTOM: -8px; _overflow: hidden
+}
+.numList LI {
+	OVERFLOW: hidden; WIDTH: 176px; VERTICAL-ALIGN: bottom; POSITION: relative; ZOOM: 1; PADDING-LEFT: 20px
+}
+.numList LI SPAN {
+	HEIGHT: 16px; WIDTH: 16px; BACKGROUND: #cacaca; POSITION: absolute; FLOAT: left; COLOR: #fff; TEXT-ALIGN: center; LEFT: 0px; MARGIN-TOP: 7px; LINE-HEIGHT: 16px; MARGIN-RIGHT: 5px
+}
+.numList LI SPAN.num3 {
+	BACKGROUND: #4095d5
+}
+.numList LI .hoverHide A {
+	WIDTH: 130px; FLOAT: left
+}
+.numList LI EM {
+	OVERFLOW: hidden; WIDTH: 56px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: clip; FLOAT: right; COLOR: #4095d5
+}
+.numList LI .detailWrap SPAN {
+	HEIGHT: 16px; WIDTH: 16px; POSITION: absolute; LEFT: -10px; Z-INDEX: 10; TOP: 9px
+}
+.numList LI .detailWrap {
+	LEFT: -10px
+}
+.numList LI .detailWrap .detailInfo H4 A {
+	WHITE-SPACE: normal; FLOAT: none; COLOR: #333
+}
+.numList LI .detailWrap .detailInfo H4 A:hover {
+	COLOR: #4095d5
+}
+.detailInfo I {
+	COLOR: #333
+}
+LI.firstList .hoverHide {
+	DISPLAY: none
+}
+.ellipsis {
+	OVERFLOW: hidden; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis
+}
+.changxiaoList .numList LI SPAN {
+	MARGIN-TOP: 10px
+}
+.changxiaoList .numList LI SPAN.num3 {
+	BACKGROUND: #9e3a3a
+}
+.changxiaoList .numList LI .detailWrap SPAN {
+	TOP: 6px
+}
+.changxiaoList .rankList LI {
+	LINE-HEIGHT: 36px
+}
+.changxiaoList .rankList LI.firstList {
+	HEIGHT: auto
+}
+.changxiaoList .rankList LI .detailWrap {
+	HEIGHT: 89px; PADDING-TOP: 12px
+}
+.changxiaoList .red {
+	COLOR: #b16565
+}
+.layout A:hover {
+	COLOR: #4095d5
+}
+.changxiaoList LI A:hover {
+	COLOR: #4095d5
+}
+.page404 {
+	BORDER-TOP: #ccc 1px solid; HEIGHT: 570px; BORDER-RIGHT: #ccc 1px solid; BACKGROUND: url(http://img1.chuangshi.qq.com/book/p1/404bg.png?v=1372916661) #fff no-repeat 20% 20%; BORDER-BOTTOM: #ccc 1px solid; POSITION: relative; BORDER-LEFT: #ccc 1px solid
+}
+.info404 {
+	POSITION: absolute; LEFT: 440px; TOP: 45px
+}
+.info404 H1 {
+	FONT: 700 16px/32px "Microsoft Yahei"
+}
+.recommed_404 H1 {
+	FONT: 700 16px/32px "Microsoft Yahei"
+}
+.sorry404 {
+	MARGIN-BOTTOM: 10px; BORDER-BOTTOM: #838383 1px solid
+}
+.info404 P {
+	FONT-SIZE: 14px
+}
+.recommed_404 {
+	POSITION: absolute; LEFT: 150px; TOP: 280px
+}
+.recommed_404 H1 {
+	MARGIN-BOTTOM: 20px
+}
+.recommed_404list IMG {
+	BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; BORDER-BOTTOM: #ccc 1px solid; PADDING-BOTTOM: 1px; PADDING-TOP: 1px; PADDING-LEFT: 1px; BORDER-LEFT: #ccc 1px solid; PADDING-RIGHT: 1px
+}
+.recommed_404list LI {
+	FLOAT: left; MARGIN-RIGHT: 25px
+}
+.recommed_404list P {
+	MARGIN-BOTTOM: 8px; TEXT-ALIGN: center; LINE-HEIGHT: 1
+}
+.page_wrap {
+	OVERFLOW: hidden; FONT-FAMILY: Verdana,Geneva,sans-serif; ZOOM: 1; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 0px; CLEAR: both; PADDING-RIGHT: 0px
+}
+.page_review {
+	FLOAT: left; PADDING-LEFT: 10px; LINE-HEIGHT: 28px
+}
+.paginator {
+	OVERFLOW: hidden; POSITION: relative
+}
+.paginator A {
+	FONT-SIZE: 12px; HEIGHT: 39px; FONT-FAMILY: arial,simsun; WIDTH: 36px; VERTICAL-ALIGN: middle; WHITE-SPACE: nowrap; FLOAT: left; FONT-WEIGHT: bold; TEXT-ALIGN: center; MARGIN: 0px 5px 0px 0px; LINE-HEIGHT: 39px
+}
+.paginator SPAN {
+	FONT-SIZE: 12px; HEIGHT: 39px; FONT-FAMILY: arial,simsun; WIDTH: 36px; VERTICAL-ALIGN: middle; WHITE-SPACE: nowrap; FLOAT: left; FONT-WEIGHT: bold; TEXT-ALIGN: center; MARGIN: 0px 5px 0px 0px; LINE-HEIGHT: 39px
+}
+.page_wrap .paginator A {
+	COLOR: #fff
+}
+.page_wrap .paginator A:hover {
+	BACKGROUND: #5bb4f7
+}
+.paginator B {
+	FONT-SIZE: 16px; FONT-FAMILY: simsun
+}
+.paginator .page-start {
+	HEIGHT: 39px; WIDTH: 36px; BACKGROUND: #4095d5; COLOR: #fff
+}
+.paginator A {
+	HEIGHT: 39px; WIDTH: 36px; BACKGROUND: #4095d5; COLOR: #fff
+}
+.paginator .page-end {
+	HEIGHT: 39px; WIDTH: 36px; BACKGROUND: #4095d5; COLOR: #fff
+}
+.paginator .page-end {
+	BORDER-TOP-COLOR: #d9d9d9; BORDER-LEFT-COLOR: #d9d9d9; COLOR: #939393; BORDER-BOTTOM-COLOR: #d9d9d9; MARGIN: 0px; BORDER-RIGHT-COLOR: #d9d9d9
+}
+.paginator .page-this {
+	HEIGHT: 39px; WIDTH: 36px; BACKGROUND: #4095d5; FONT-WEIGHT: bold; COLOR: #fff
+}
+.paginator .page-break {
+	BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid; BORDER-BOTTOM: #fff 1px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 3px; BORDER-LEFT: #fff 1px solid; PADDING-RIGHT: 3px
+}
+.page-all {
+	LINE-HEIGHT: 20px
+}
+.page_more {
+	COLOR: #999
+}
+.footer {
+	BORDER-TOP: #4095d5 5px solid; WIDTH: 1000px; COLOR: #777; PADDING-BOTTOM: 20px; MARGIN: 20px auto 0px
+}
+.footer A:hover {
+	COLOR: #4095d5
+}
+.footer_main {
+	HEIGHT: 150px; BACKGROUND: url(http://img1.chuangshi.qq.com/book/p1/footBg.png); PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.footer_main LI {
+	HEIGHT: 155px; BORDER-RIGHT: #ccc 1px dotted; WIDTH: 125px; FLOAT: left
+}
+.footer_main LI A {
+	MARGIN-BOTTOM: 12px; COLOR: #777; FONT: 12px/1 simsun; PADDING-LEFT: 25px; DISPLAY: block
+}
+.footer_main LI.friendLink {
+	WIDTH: 66px; POSITION: relative
+}
+.footer_main LI.business {
+	WIDTH: 294px; POSITION: relative; BORDER-RIGHT-STYLE: none
+}
+.footer_main LI.business SPAN {
+	HEIGHT: 70px; WIDTH: 20px; BACKGROUND: #4095d5; POSITION: absolute; COLOR: #fff; PADDING-BOTTOM: 0px; TEXT-ALIGN: center; PADDING-TOP: 5px; FONT: 14px/1.2 simsun; PADDING-LEFT: 5px; LEFT: 35px; TOP: 25%; PADDING-RIGHT: 5px
+}
+.footer_main LI.friendLink SPAN {
+	HEIGHT: 70px; WIDTH: 20px; BACKGROUND: #4095d5; POSITION: absolute; COLOR: #fff; PADDING-BOTTOM: 0px; TEXT-ALIGN: center; PADDING-TOP: 5px; FONT: 14px/1.2 simsun; PADDING-LEFT: 5px; LEFT: 30%; TOP: 25%; PADDING-RIGHT: 5px
+}
+.Bcontact {
+	POSITION: absolute; TEXT-ALIGN: center; LEFT: 30%; TOP: 22%
+}
+.footer_main LI .Bcontact A {
+	FONT-FAMILY: Arial; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; DISPLAY: inline; PADDING-RIGHT: 0px
+}
+.foot {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 10px; PADDING-LEFT: 0px; LINE-HEIGHT: 2; PADDING-RIGHT: 0px
+}
+.foot P {
+	FONT-FAMILY: Arial; TEXT-ALIGN: center
+}
+.foot P A {
+	BORDER-RIGHT: #777 1px solid; COLOR: #777; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; DISPLAY: inline-block; LINE-HEIGHT: 1; PADDING-RIGHT: 10px; MARGIN-RIGHT: 10px
+}
+.foot P A.nobroder {
+	BORDER-TOP-STYLE: none; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none
+}
+.go_top {
+	HEIGHT: 54px; WIDTH: 54px; BACKGROUND: url(http://img1.chuangshi.qq.com/book/p1/index.png) #997c6a no-repeat -22px -240px; RIGHT: 25px; POSITION: fixed; FILTER: alpha(opacity=30); DISPLAY: block; BOTTOM: 45px; _position: absolute; opacity: .3
+}
+.go_top:hover {
+	FILTER: alpha(opacity=100); opacity: 1
+}
+#icp {
+	PADDING-BOTTOM: 0px; TEXT-ALIGN: center; PADDING-TOP: 15px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+#icp A IMG {
+	MARGIN-RIGHT: 10px
+}
+.xg1 {
+	COLOR: #999 !important
+}
+.xg1 A {
+	COLOR: #999 !important
+}
+.xg1 .xi2 {
+	COLOR: #369 !important
+}
+.z {
+	FLOAT: left
+}
+.y {
+	FLOAT: right
+}
+#ajaxwaitid {
+	BACKGROUND: #d00; RIGHT: 0px; POSITION: absolute; COLOR: #fff; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 5px; Z-INDEX: 1; DISPLAY: none; TOP: 0px; PADDING-RIGHT: 5px
+}
+.showmenu {
+	CURSOR: pointer; BACKGROUND: url(http://img1.chuangshi.qq.com/writer/p1/dialog/arrwd.gif) no-repeat 100% 50%; WHITE-SPACE: nowrap; PADDING-RIGHT: 16px
+}
+#um .showmenu {
+	MARGIN-RIGHT: -5px
+}
+.altw {
+	WIDTH: 350px
+}
+.altw .fltc {
+	MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px
+}
+.alert_right {
+	FONT-SIZE: 14px; HEIGHT: auto !important; BACKGROUND: url(http://img1.chuangshi.qq.com/writer/p1/dialog/right.gif) no-repeat 8px 8px; PADDING-BOTTOM: 6px; PADDING-TOP: 6px; PADDING-LEFT: 58px; MIN-HEIGHT: 40px; LINE-HEIGHT: 160%; PADDING-RIGHT: 0px
+}
+.alert_error {
+	FONT-SIZE: 14px; HEIGHT: auto !important; BACKGROUND: url(http://img1.chuangshi.qq.com/writer/p1/dialog/right.gif) no-repeat 8px 8px; PADDING-BOTTOM: 6px; PADDING-TOP: 6px; PADDING-LEFT: 58px; MIN-HEIGHT: 40px; LINE-HEIGHT: 160%; PADDING-RIGHT: 0px
+}
+.alert_info {
+	FONT-SIZE: 14px; HEIGHT: auto !important; BACKGROUND: url(http://img1.chuangshi.qq.com/writer/p1/dialog/right.gif) no-repeat 8px 8px; PADDING-BOTTOM: 6px; PADDING-TOP: 6px; PADDING-LEFT: 58px; MIN-HEIGHT: 40px; LINE-HEIGHT: 160%; PADDING-RIGHT: 0px
+}
+.alert_error {
+	BACKGROUND-IMAGE: url(http://img1.chuangshi.qq.com/writer/p1/dialog/error.gif)
+}
+.alert_error A {
+	FONT-WEIGHT: 700; COLOR: #369
+}
+.alert_info {
+	BACKGROUND-IMAGE: url(http://img1.chuangshi.qq.com/writer/p1/dialog/info.gif)
+}
+.alert_btnleft {
+	MARGIN-TOP: 8px
+}
+.alert_btn {
+	TEXT-ALIGN: center; MARGIN-TOP: 20px
+}
+.alert_act {
+	PADDING-LEFT: 58px; MARGIN-TOP: 20px
+}
+.popupcredit {
+	
+}
+.pc_l {
+	HEIGHT: 56px; WIDTH: 29px; BACKGROUND: url(http://img1.chuangshi.qq.com/writer/p1/dialog/popupcredit_bg.gif) no-repeat 0px 0px; LINE-HEIGHT: 56px
+}
+.pc_c {
+	HEIGHT: 56px; WIDTH: 29px; BACKGROUND: url(http://img1.chuangshi.qq.com/writer/p1/dialog/popupcredit_bg.gif) no-repeat 0px 0px; LINE-HEIGHT: 56px
+}
+.pc_inner {
+	HEIGHT: 56px; WIDTH: 29px; BACKGROUND: url(http://img1.chuangshi.qq.com/writer/p1/dialog/popupcredit_bg.gif) no-repeat 0px 0px; LINE-HEIGHT: 56px
+}
+.pc_r {
+	HEIGHT: 56px; WIDTH: 29px; BACKGROUND: url(http://img1.chuangshi.qq.com/writer/p1/dialog/popupcredit_bg.gif) no-repeat 0px 0px; LINE-HEIGHT: 56px
+}
+.pc_c {
+	WIDTH: 200px; BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: 0px -56px
+}
+.pc_inner {
+	WIDTH: auto; WHITE-SPACE: nowrap; BACKGROUND-POSITION: 50% -112px; TEXT-ALIGN: center
+}
+.pc_inner I {
+	FONT-SIZE: 12px; FONT-WEIGHT: 400; COLOR: #fff; FONT-STYLE: normal; MARGIN-RIGHT: 10px
+}
+.pc_inner SPAN {
+	FONT-SIZE: 14px; FONT-WEIGHT: 700; COLOR: #ffea97; MARGIN-RIGHT: 15px
+}
+* HTML .pc_inner SPAN {
+	DISPLAY: inline-block
+}
+.pc_inner SPAN A {
+	TEXT-DECORATION: underline; COLOR: #ffea97
+}
+.pc_inner SPAN EM {
+	FONT-SIZE: 18px; FONT-WEIGHT: 400; COLOR: #fff
+}
+.pc_inner SPAN U {
+	FONT-SIZE: 10px; TEXT-DECORATION: none
+}
+.pc_inner SPAN EM.desc {
+	COLOR: #930
+}
+.pc_btn IMG {
+	opacity: .5
+}
+.pc_btn:hover IMG {
+	opacity: 1
+}
+.pc_r {
+	BACKGROUND-POSITION: -30px 0px
+}
+.popuptext .pc_l {
+	BACKGROUND: url(http://img1.chuangshi.qq.com/writer/p1/dialog/popuptext_bg.gif) no-repeat 0px 0px
+}
+.popuptext .pc_c {
+	BACKGROUND: url(http://img1.chuangshi.qq.com/writer/p1/dialog/popuptext_bg.gif) no-repeat 0px 0px
+}
+.popuptext .pc_inner {
+	BACKGROUND: url(http://img1.chuangshi.qq.com/writer/p1/dialog/popuptext_bg.gif) no-repeat 0px 0px
+}
+.popuptext .pc_r {
+	BACKGROUND: url(http://img1.chuangshi.qq.com/writer/p1/dialog/popuptext_bg.gif) no-repeat 0px 0px
+}
+.popuptext .pc_c {
+	WIDTH: 200px; BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: 0px -56px
+}
+.popuptext .pc_inner {
+	WIDTH: auto; WHITE-SPACE: nowrap; BACKGROUND-POSITION: 50% -112px; TEXT-ALIGN: center
+}
+.popuptext .pc_r {
+	BACKGROUND-POSITION: -30px 0px
+}
+.fwin .rfm {
+	WIDTH: 500px
+}
+.nfl .f_c .rfm {
+	WIDTH: 500px
+}
+.fwin .rfm TH {
+	PADDING-BOTTOM: 6px; PADDING-TOP: 6px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px
+}
+.fwin .rfm TD {
+	PADDING-BOTTOM: 6px; PADDING-TOP: 6px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px
+}
+.nfl .f_c .rfm TH {
+	PADDING-BOTTOM: 6px; PADDING-TOP: 6px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px
+}
+.nfl .f_c .rfm TD {
+	PADDING-BOTTOM: 6px; PADDING-TOP: 6px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px
+}
+.fwin .loginb BUTTON {
+	MARGIN-LEFT: 11.3em
+}
+.p_pop {
+	BORDER-TOP: #ddd 1px solid; BORDER-RIGHT: #ddd 1px solid; BACKGROUND: #fefefe; MIN-WIDTH: 60px; BORDER-BOTTOM: #ddd 1px solid; PADDING-BOTTOM: 4px; PADDING-TOP: 4px; PADDING-LEFT: 4px; BORDER-LEFT: #ddd 1px solid; PADDING-RIGHT: 4px; box-shadow: 1px 2px 2px rgba(0, 0, 0, .3)
+}
+.p_pof {
+	BORDER-TOP: #ddd 1px solid; BORDER-RIGHT: #ddd 1px solid; BACKGROUND: #fefefe; MIN-WIDTH: 60px; BORDER-BOTTOM: #ddd 1px solid; PADDING-BOTTOM: 4px; PADDING-TOP: 4px; PADDING-LEFT: 4px; BORDER-LEFT: #ddd 1px solid; PADDING-RIGHT: 4px; box-shadow: 1px 2px 2px rgba(0, 0, 0, .3)
+}
+.sllt {
+	BORDER-TOP: #ddd 1px solid; BORDER-RIGHT: #ddd 1px solid; BACKGROUND: #fefefe; MIN-WIDTH: 60px; BORDER-BOTTOM: #ddd 1px solid; PADDING-BOTTOM: 4px; PADDING-TOP: 4px; PADDING-LEFT: 4px; BORDER-LEFT: #ddd 1px solid; PADDING-RIGHT: 4px; box-shadow: 1px 2px 2px rgba(0, 0, 0, .3)
+}
+.ie6 .p_pop {
+	WIDTH: 100px
+}
+.p_pof .p_pop {
+	BORDER-TOP-STYLE: none; BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; PADDING-LEFT: 0px; BORDER-LEFT-STYLE: none; PADDING-RIGHT: 0px; box-shadow: none
+}
+.p_pof {
+	WIDTH: 500px
+}
+.p_opt {
+	PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px
+}
+.p_pop LI {
+	DISPLAY: inline
+}
+.p_pop A {
+	WHITE-SPACE: nowrap; BORDER-BOTTOM: #e5edf2 1px solid; PADDING-BOTTOM: 3px; PADDING-TOP: 3px; PADDING-LEFT: 5px; DISPLAY: block; PADDING-RIGHT: 5px
+}
+.p_pop LI:unknown A {
+	BORDER-TOP-STYLE: none; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none
+}
+.ie6 .p_pop LI {
+	WIDTH: 100%; ZOOM: 1; CLEAR: both
+}
+.ie6 .p_pop A {
+	POSITION: relative
+}
+.p_pop A:hover {
+	TEXT-DECORATION: none; COLOR: #369; BACKGROUND-COLOR: #e5edf2
+}
+.p_pop A.a {
+	TEXT-DECORATION: none; COLOR: #369; BACKGROUND-COLOR: #e5edf2
+}
+#sctype_menu .sca {
+	TEXT-DECORATION: none; COLOR: #369; BACKGROUND-COLOR: #e5edf2
+}
+.prompt_news {
+	HEIGHT: 14px; WIDTH: 18px; BACKGROUND: url(http://img1.chuangshi.qq.com/writer/p1/dialog/ico_notice.png) no-repeat 0px 0px; FLOAT: left; MARGIN: 3px 3px 5px 0px; DISPLAY: inline
+}
+.prompt_follower {
+	HEIGHT: 14px; WIDTH: 18px; BACKGROUND: url(http://img1.chuangshi.qq.com/writer/p1/dialog/ico_notice.png) no-repeat 0px 0px; FLOAT: left; MARGIN: 3px 3px 5px 0px; DISPLAY: inline
+}
+.prompt_news_0 {
+	HEIGHT: 14px; WIDTH: 18px; BACKGROUND: url(http://img1.chuangshi.qq.com/writer/p1/dialog/ico_notice.png) no-repeat 0px 0px; FLOAT: left; MARGIN: 3px 3px 5px 0px; DISPLAY: inline
+}
+.prompt_follower_0 {
+	HEIGHT: 14px; WIDTH: 18px; BACKGROUND: url(http://img1.chuangshi.qq.com/writer/p1/dialog/ico_notice.png) no-repeat 0px 0px; FLOAT: left; MARGIN: 3px 3px 5px 0px; DISPLAY: inline
+}
+.ignore_notice {
+	HEIGHT: 14px; WIDTH: 18px; BACKGROUND: url(http://img1.chuangshi.qq.com/writer/p1/dialog/ico_notice.png) no-repeat 0px 0px; FLOAT: left; MARGIN: 3px 3px 5px 0px; DISPLAY: inline
+}
+.prompt_concern {
+	HEIGHT: 14px; WIDTH: 18px; BACKGROUND: url(http://img1.chuangshi.qq.com/writer/p1/dialog/ico_notice.png) no-repeat 0px 0px; FLOAT: left; MARGIN: 3px 3px 5px 0px; DISPLAY: inline
+}
+.prompt_follower_0 {
+	BACKGROUND-POSITION: 0px -225px
+}
+.prompt_follower {
+	BACKGROUND-POSITION: 0px -191px
+}
+.prompt_concern {
+	BACKGROUND-POSITION: 0px -258px
+}
+.ignore_notice {
+	OVERFLOW: hidden; HEIGHT: 12px; WIDTH: 12px; BACKGROUND: url(http://img1.chuangshi.qq.com/writer/p1/dialog/close.gif) no-repeat 0px 0px; RIGHT: 0px; POSITION: absolute; TOP: 0px
+}
+.p_pop .ignore_noticeli A {
+	BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-BOTTOM-WIDTH: 0px
+}
+.p_pop .ignore_noticeli A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-BOTTOM-WIDTH: 0px
+}
+.p_pop .ignore_noticeli A.a {
+	BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-BOTTOM-WIDTH: 0px
+}
+.p_pop .notice_interactive {
+	MARGIN: 3px 2px 5px 0px
+}
+.p_pop .notice_system {
+	MARGIN: 3px 2px 5px 0px
+}
+.p_pop .notice_manage {
+	MARGIN: 3px 2px 5px 0px
+}
+.p_pop .notice_app {
+	MARGIN: 3px 2px 5px 0px
+}
+.p_pop .notice_mypost {
+	MARGIN: 3px 2px 5px 0px
+}
+.ie6 .ignore_notice {
+	DISPLAY: none
+}
+.blk A {
+	BORDER-TOP-STYLE: none; BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; PADDING-LEFT: 0px; BORDER-LEFT-STYLE: none; DISPLAY: inline; PADDING-RIGHT: 0px
+}
+.inlinelist A {
+	BORDER-TOP-STYLE: none; BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; PADDING-LEFT: 0px; BORDER-LEFT-STYLE: none; DISPLAY: inline; PADDING-RIGHT: 0px
+}
+.blk A:hover {
+	TEXT-DECORATION: underline; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #333; text-shadow: none
+}
+.inlinelist {
+	PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px
+}
+.inlinelist A {
+	OVERFLOW: hidden; HEIGHT: 2em; WIDTH: 5em; FLOAT: left; TEXT-ALIGN: center; LINE-HEIGHT: 2em
+}
+.h_pop {
+	BORDER-TOP-STYLE: none; MIN-WIDTH: 120px
+}
+.p_opt .txt {
+	MARGIN: 5px 0px
+}
+.p_opt .txtarea {
+	MARGIN: 5px 0px
+}
+.p_pop .flbc {
+	MARGIN-TOP: 4px; MARGIN-RIGHT: 8px
+}
+.p_pof .flbc {
+	MARGIN-TOP: 4px; MARGIN-RIGHT: 8px
+}
+.t_l {
+	OVERFLOW: hidden; BACKGROUND: #000; FILTER: alpha(opacity=20); opacity: .2
+}
+.t_c {
+	OVERFLOW: hidden; BACKGROUND: #000; FILTER: alpha(opacity=20); opacity: .2
+}
+.t_r {
+	OVERFLOW: hidden; BACKGROUND: #000; FILTER: alpha(opacity=20); opacity: .2
+}
+.m_l {
+	OVERFLOW: hidden; BACKGROUND: #000; FILTER: alpha(opacity=20); opacity: .2
+}
+.m_r {
+	OVERFLOW: hidden; BACKGROUND: #000; FILTER: alpha(opacity=20); opacity: .2
+}
+.b_l {
+	OVERFLOW: hidden; BACKGROUND: #000; FILTER: alpha(opacity=20); opacity: .2
+}
+.b_c {
+	OVERFLOW: hidden; BACKGROUND: #000; FILTER: alpha(opacity=20); opacity: .2
+}
+.b_r {
+	OVERFLOW: hidden; BACKGROUND: #000; FILTER: alpha(opacity=20); opacity: .2
+}
+.t_l {
+	HEIGHT: 8px; WIDTH: 8px
+}
+.t_r {
+	HEIGHT: 8px; WIDTH: 8px
+}
+.b_l {
+	HEIGHT: 8px; WIDTH: 8px
+}
+.b_r {
+	HEIGHT: 8px; WIDTH: 8px
+}
+.t_c {
+	HEIGHT: 8px
+}
+.b_c {
+	HEIGHT: 8px
+}
+.m_l {
+	WIDTH: 8px
+}
+.m_r {
+	WIDTH: 8px
+}
+.t_l {
+	-webkit-border-radius: 8px 0 0 0; -moz-border-radius: 8px 0 0 0; border-radius: 8px 0 0 0
+}
+.t_r {
+	-webkit-border-radius: 0 8px 0 0; -moz-border-radius: 0 8px 0 0; border-radius: 0 8px 0 0
+}
+.b_l {
+	-webkit-border-radius: 0 0 0 8px; -moz-border-radius: 0 0 0 8px; border-radius: 0 0 0 8px
+}
+.b_r {
+	-webkit-border-radius: 0 0 8px 0; -moz-border-radius: 0 0 8px 0; border-radius: 0 0 8px 0
+}
+.m_c {
+	BACKGROUND: #fff
+}
+.m_c .tb {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 10px; MARGIN: 0px 0px 10px; PADDING-RIGHT: 10px
+}
+.m_c .c {
+	PADDING-BOTTOM: 10px; PADDING-TOP: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px
+}
+.m_c .o {
+	BORDER-TOP: #ccc 1px solid; HEIGHT: 26px; BACKGROUND: #f2f2f2; PADDING-BOTTOM: 8px; TEXT-ALIGN: right; PADDING-TOP: 8px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px
+}
+.m_c .el {
+	WIDTH: 420px
+}
+.m_c .el LI {
+	BORDER-TOP-STYLE: none; BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; PADDING-LEFT: 0px; BORDER-LEFT-STYLE: none; PADDING-RIGHT: 0px
+}
+.flb {
+	HEIGHT: 20px; PADDING-BOTTOM: 8px; PADDING-TOP: 10px; PADDING-LEFT: 10px; LINE-HEIGHT: 20px; PADDING-RIGHT: 10px
+}
+.flb EM {
+	FONT-SIZE: 14px; FLOAT: left; FONT-WEIGHT: 700; COLOR: #369
+}
+.flb EM A {
+	TEXT-DECORATION: none
+}
+.flb .needverify {
+	FONT-SIZE: 12px; HEIGHT: 21px; WIDTH: 45px; BACKGROUND: url(http://img1.chuangshi.qq.com/writer/p1/dialog/re_unsolved.gif) no-repeat 0px 0px; FLOAT: left; FONT-WEIGHT: 400; COLOR: #999; PADDING-LEFT: 13px; MARGIN-LEFT: 8px; LINE-HEIGHT: 21px
+}
+.flb .onerror {
+	FONT-SIZE: 12px; HEIGHT: auto; WHITE-SPACE: nowrap; FONT-WEIGHT: 400; PADDING-LEFT: 20px; LINE-HEIGHT: 140%
+}
+.flb .onright {
+	FONT-SIZE: 12px; HEIGHT: auto; WHITE-SPACE: nowrap; FONT-WEIGHT: 400; PADDING-LEFT: 20px; LINE-HEIGHT: 140%
+}
+.flb .onerror {
+	BACKGROUND: url(http://img1.chuangshi.qq.com/writer/p1/dialog/check_error.gif) no-repeat 0px 50%
+}
+.flb .onright {
+	BACKGROUND: url(http://img1.chuangshi.qq.com/writer/p1/dialog/check_right.gif) no-repeat 0px 50%; COLOR: #666
+}
+.flb SPAN {
+	FLOAT: right; COLOR: #999
+}
+.flb SPAN A {
+	TEXT-DECORATION: none; FLOAT: left; FONT-WEIGHT: 400; COLOR: #333; MARGIN-LEFT: 8px
+}
+.flb STRONG {
+	TEXT-DECORATION: none; FLOAT: left; FONT-WEIGHT: 400; COLOR: #333; MARGIN-LEFT: 8px
+}
+.flb SPAN A:hover {
+	COLOR: #999
+}
+.flbc {
+	OVERFLOW: hidden; CURSOR: pointer; HEIGHT: 20px; WIDTH: 20px; BACKGROUND: url(http://img1.chuangshi.qq.com/writer/p1/dialog/cls.gif) no-repeat 0px 0px; FLOAT: left; TEXT-INDENT: -9999px
+}
+.flbc:hover {
+	BACKGROUND-POSITION: 0px -20px
+}
+.floatwrap {
+	OVERFLOW: auto; MARGIN-BOTTOM: 10px; HEIGHT: 280px; OVERFLOW-X: hidden
+}
+.f_c LI {
+	LIST-STYLE-TYPE: none
+}
+.f_c HR.l {
+	MARGIN: 0px
+}
+.f_c A {
+	COLOR: #369
+}
+.f_c .list {
+	BORDER-TOP: #cdcdcd 3px solid; WIDTH: 570px; MARGIN: 0px auto 10px
+}
+.f_c .list TH {
+	HEIGHT: auto; BORDER-BOTTOM: #cdcdcd 1px dashed; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px
+}
+.f_c .list TD {
+	HEIGHT: auto; BORDER-BOTTOM: #cdcdcd 1px dashed; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px
+}
+.f_c .list .btns TH {
+	BORDER-BOTTOM-STYLE: none
+}
+.f_c .list .btns TD {
+	BORDER-BOTTOM-STYLE: none
+}
+.f_c .th TH {
+	PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.f_c .th TD {
+	PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.f_c .list TH {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+BUTTON:unknown {
+	BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px
+}
+.pn {
+	OVERFLOW: hidden; CURSOR: pointer; BORDER-TOP: #999 1px solid; HEIGHT: 23px; BORDER-RIGHT: #999 1px solid; VERTICAL-ALIGN: middle; BACKGROUND: url(http://img1.chuangshi.qq.com/writer/p1/dialog/pn.png) #e5e5e5 repeat-x 0px 0px; BORDER-BOTTOM: #999 1px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: #999 1px solid; PADDING-RIGHT: 0px; MARGIN-RIGHT: 3px; box-shadow: 0 1px 0 #E5E5E5; -webkit-box-shadow: 0 1px 0 #E5E5E5; -moz-box-shadow: 0 1px 0 #E5E5E5
+}
+.pn:active {
+	BACKGROUND-POSITION: 0px -23px
+}
+.ie6 .pn {
+	WIDTH: 0px; OVERFLOW-X: visible
+}
+.pn EM {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 10px; LINE-HEIGHT: 21px; PADDING-RIGHT: 10px
+}
+.pn SPAN {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 10px; LINE-HEIGHT: 21px; PADDING-RIGHT: 10px
+}
+.pn STRONG {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 10px; LINE-HEIGHT: 21px; PADDING-RIGHT: 10px
+}
+#append_parent .fwinmask .fwin BUTTON {
+	LINE-HEIGHT: 1
+}
+.pn EM {
+	FONT-WEIGHT: 700
+}
+.pn STRONG {
+	FONT-WEIGHT: 700
+}
+.ie7 .pn EM {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 5px; LINE-HEIGHT: 18px; PADDING-RIGHT: 5px
+}
+.ie7 .pn SPAN {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 5px; LINE-HEIGHT: 18px; PADDING-RIGHT: 5px
+}
+.ie7 .pn STRONG {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 5px; LINE-HEIGHT: 18px; PADDING-RIGHT: 5px
+}
+A.pn {
+	HEIGHT: 21px; COLOR: #444 !important; LINE-HEIGHT: 21px
+}
+A.pn:hover {
+	TEXT-DECORATION: none
+}
+.ie6 A.pn {
+	WIDTH: auto
+}
+.ie6 A.pn EM {
+	DISPLAY: block
+}
+.ie6 A.pn SPAN {
+	DISPLAY: block
+}
+.ie6 A.pn STRONG {
+	DISPLAY: block
+}
+.ie7 A.pn EM {
+	LINE-HEIGHT: 21px
+}
+.ie7 A.pn SPAN {
+	LINE-HEIGHT: 21px
+}
+.ie7 A.pn STRONG {
+	LINE-HEIGHT: 21px
+}
+.pnc {
+	BORDER-TOP-COLOR: #235994; BACKGROUND-POSITION: 0px -48px; BORDER-LEFT-COLOR: #235994; COLOR: #fff !important; BORDER-BOTTOM-COLOR: #235994; BORDER-RIGHT-COLOR: #235994; BACKGROUND-COLOR: #06c
+}
+A.pnc {
+	BORDER-TOP-COLOR: #235994; BACKGROUND-POSITION: 0px -48px; BORDER-LEFT-COLOR: #235994; COLOR: #fff !important; BORDER-BOTTOM-COLOR: #235994; BORDER-RIGHT-COLOR: #235994; BACKGROUND-COLOR: #06c
+}
+.pnc:active {
+	BACKGROUND-POSITION: 0px -71px
+}
+.pnpost .pn {
+	HEIGHT: 26px
+}
+#mask {
+	HEIGHT: 100%; WIDTH: 100%; BACKGROUND: #000; POSITION: absolute; LEFT: 0px; FILTER: alpha(opacity=80); Z-INDEX: 999; TOP: 0px; opacity: 0.8
+}
+.commonPopup {
+	WIDTH: 412px; BACKGROUND: #fafafa; POSITION: absolute; PADDING-BOTTOM: 10px; LEFT: 40%; Z-INDEX: 1000; DISPLAY: none; TOP: 25%
+}
+.popupTitle {
+	MARGIN-BOTTOM: 20px; BACKGROUND: #9b0505; POSITION: relative; COLOR: #fff; TEXT-ALIGN: center; FONT: 700 16px/44px 'Î¢ÈíÑÅºÚ'; PADDING-LEFT: 10px; LETTER-SPACING: 10px
+}
+.popupClose {
+	HEIGHT: 29px; WIDTH: 29px; BACKGROUND: url(http://img1.chuangshi.qq.com/yunqi/p1/ico/popClose.gif) no-repeat; RIGHT: 5px; POSITION: absolute; TOP: 7px
+}
+.popupWrap {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 40px; PADDING-RIGHT: 40px
+}
+.popupWrap H3 {
+	FONT: 12px/1.8 'ËÎÌå'
+}
+.dateInput {
+	MARGIN: 16px 0px; DISPLAY: inline-block
+}
+.commonPopup .btnWrap {
+	PADDING-BOTTOM: 10px; TEXT-ALIGN: center; PADDING-TOP: 15px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.commonPopup .btnWrap A {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px
+}
+.sendAfter {
+	MARGIN: 15px auto 5px; DISPLAY: block
+}
+.sendAfter B {
+	PADDING-RIGHT: 10px
+}
+.vipSend {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.vipSend INPUT {
+	VERTICAL-ALIGN: middle; MARGIN: 1px 5px 3px 0px
+}
+.vipSend LABEL {
+	COLOR: #333
+}
+.vipSend P {
+	MARGIN-BOTTOM: 10px
+}
+.db {
+	DISPLAY: block
+}
+.loginPopup {
+	WIDTH: 620px
+}
+.sakura {
+	BORDER-TOP: #cdcdcd 3px solid; HEIGHT: 450px; BORDER-RIGHT: #cdcdcd 3px solid; WIDTH: 650px; BACKGROUND: #fafafa; BORDER-BOTTOM: #cdcdcd 3px solid; PADDING-BOTTOM: 20px; MARGIN: 0px auto; BORDER-LEFT: #cdcdcd 3px solid; Z-INDEX: 100; border-radius: 5px; _height: 440px; _padding-bottom: 0px; _background: #888
+}
+.sakura H1 {
+	WIDTH: 100%; BACKGROUND: url(http://img1.chuangshi.qq.com/chuangshi/p1/x-repeat.png?v=1372384372) repeat-x 0px -62px; BORDER-BOTTOM: #cdcdcd 1px solid; FONT: 700 12px/30px "ËÎÌå"; TEXT-INDENT: 20px
+}
+.bookshelf H1 {
+	WIDTH: 100%; BACKGROUND: url(http://img1.chuangshi.qq.com/chuangshi/p1/x-repeat.png?v=1372384372) repeat-x 0px -62px; BORDER-BOTTOM: #cdcdcd 1px solid; FONT: 700 12px/30px "ËÎÌå"; TEXT-INDENT: 20px
+}
+.sakura H1 A {
+	HEIGHT: 15px; WIDTH: 16px; BACKGROUND: url(http://img1.chuangshi.qq.com/chuangshi/p1/ico/wclose.png) no-repeat; FLOAT: right; MARGIN: 7px 10px 0px 0px
+}
+.bookshelf H1 A {
+	HEIGHT: 15px; WIDTH: 16px; BACKGROUND: url(http://img1.chuangshi.qq.com/chuangshi/p1/ico/wclose.png) no-repeat; FLOAT: right; MARGIN: 7px 10px 0px 0px
+}
+.inform H1 A {
+	HEIGHT: 15px; WIDTH: 16px; BACKGROUND: url(http://img1.chuangshi.qq.com/chuangshi/p1/ico/wclose.png) no-repeat; FLOAT: right; MARGIN: 7px 10px 0px 0px
+}
+.reader_mode_popup H1 A {
+	HEIGHT: 15px; WIDTH: 16px; BACKGROUND: url(http://img1.chuangshi.qq.com/chuangshi/p1/ico/wclose.png) no-repeat; FLOAT: right; MARGIN: 7px 10px 0px 0px
+}
+.sakura_nav {
+	HEIGHT: 45px; BACKGROUND: url(http://img1.chuangshi.qq.com/chuangshi/p1/x-repeat.png?v=1372384372) repeat-x 0px 0px; BORDER-BOTTOM: #cdcdcd 3px solid; COLOR: #ccc; TEXT-ALIGN: center; PADDING-TOP: 15px
+}
+.sakura_nav A {
+	HEIGHT: 26px; WIDTH: 82px; COLOR: #333; DISPLAY: inline-block; LINE-HEIGHT: 26px
+}
+.sakura_nav A.nav_current {
+	WIDTH: 82px; BACKGROUND: #355051; COLOR: #fff
+}
+.sakura_nav SPAN {
+	COLOR: #ccc
+}
+.topshadow {
+	HEIGHT: 14px; WIDTH: 650px
+}
+.sakura_tab {
+	POSITION: relative; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 25px; PADDING-RIGHT: 25px
+}
+.bianpao {
+	RIGHT: 10px; POSITION: absolute; TOP: 30px
+}
+.sakura_tab H3 {
+	MARGIN-BOTTOM: 10px; BORDER-BOTTOM: #ccc 1px dotted; FONT: 15px/40px "Microsoft Yahei"; TEXT-INDENT: 20px
+}
+.r_ticket {
+	DISPLAY: none
+}
+.month_ticket {
+	DISPLAY: none
+}
+.reward {
+	DISPLAY: none
+}
+.addtag {
+	DISPLAY: none
+}
+.evaluate {
+	DISPLAY: none
+}
+.sakura_tab H3 SPAN {
+	FLOAT: right; FONT: 12px/40px "ËÎÌå"
+}
+.sakura_tab H3 SPAN A {
+	COLOR: #f60
+}
+.sakura_tab P {
+	MARGIN: 0px 0px 15px 20px
+}
+.sakura_tab P INPUT {
+	VERTICAL-ALIGN: middle; MARGIN: -2px 1px 1px 0px
+}
+.sakura_tab P LABEL {
+	MARGIN-RIGHT: 15px
+}
+.miniinput {
+	HEIGHT: 21px; WIDTH: 82px; BACKGROUND-POSITION: 0px -415px; TEXT-INDENT: 10px
+}
+.remark {
+	BORDER-TOP: #ccc 1px dotted; BORDER-BOTTOM: #ccc 1px dotted; PADDING-BOTTOM: 12px; PADDING-TOP: 12px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.remark TEXTAREA {
+	FONT-SIZE: 12px; HEIGHT: 45px; WIDTH: 571px; COLOR: #999; MARGIN: 0px auto; DISPLAY: block
+}
+.remark SPAN {
+	FLOAT: right; PADDING-BOTTOM: 0px; PADDING-TOP: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 10px
+}
+.warm {
+	POSITION: relative; COLOR: #666; PADDING-TOP: 10px; LINE-HEIGHT: 2
+}
+.industry P {
+	MARGIN: 0px; TEXT-INDENT: 100px
+}
+.tuitip P {
+	TEXT-INDENT: 25px
+}
+.monthtip P {
+	TEXT-INDENT: 25px
+}
+.industry .warmtip {
+	BACKGROUND: url(http://img1.chuangshi.qq.com/chuangshi/p1/ico/ftip.gif?v=1372384372) no-repeat 10% 45%; POSITION: absolute; TEXT-INDENT: 30px
+}
+.tuitip .warmtip {
+	BACKGROUND: url(http://img1.chuangshi.qq.com/chuangshi/p1/ico/ftip.gif?v=1372384372) no-repeat 0% 12%
+}
+.monthtip .warmtip {
+	BACKGROUND: url(http://img1.chuangshi.qq.com/chuangshi/p1/ico/ftip.gif?v=1372384372) no-repeat 0% 12%
+}
+.warm A {
+	POSITION: absolute; COLOR: #fff; TEXT-ALIGN: center; TEXT-INDENT: 0px
+}
+.industry A {
+	RIGHT: 30px; TOP: 35px
+}
+.monthtip A {
+	LEFT: 20px
+}
+.tuitip A {
+	LEFT: 20px
+}
+.confirm {
+	HEIGHT: 30px; WIDTH: 94px; BACKGROUND: #8a9893; FONT: 15px/30px "Mircosoft Yahei"
+}
+.confirm:hover {
+	BACKGROUND: #355051
+}
+.reward P {
+	POSITION: relative
+}
+.acquire {
+	POSITION: absolute; LEFT: 350px; TOP: 115px
+}
+.tagul {
+	PADDING-LEFT: 50px
+}
+.tagul LI {
+	WHITE-SPACE: nowrap; FLOAT: left; MARGIN: 0px 20px 0px 0px; LINE-HEIGHT: 3
+}
+.tagul A {
+	COLOR: #060
+}
+.tagul A:hover {
+	TEXT-DECORATION: underline
+}
+.evaluate H3 {
+	FONT: 12px/40px "ËÎÌå"
+}
+.sakura_tab H3 B {
+	FONT-FAMILY: "ËÎÌå"; COLOR: #f60
+}
+.pay2 {
+	COLOR: #900; MARGIN-LEFT: 10px
+}
+.pay2:hover {
+	TEXT-DECORATION: underline
+}
+.sakura_tab H4 {
+	FONT: 15px/40px "Microsoft Yahei"; TEXT-INDENT: 20px
+}
+.votelist {
+	PADDING-LEFT: 60px; MARGIN-TOP: 35px
+}
+.votelist INPUT {
+	VERTICAL-ALIGN: middle; MARGIN: -2px 5px 1px 0px
+}
+.votelist LI {
+	FLOAT: left; MARGIN-LEFT: 10px; DISPLAY: inline
+}
+.star_result {
+	RIGHT: 50px; POSITION: absolute; TOP: 13px
+}
+.star_result SPAN {
+	FONT: 40px/40px "Microsoft Yahei"
+}
+.votetip {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 10px; PADDING-LEFT: 140px; PADDING-RIGHT: 0px
+}
+.votetip P {
+	BACKGROUND: url(http://img1.chuangshi.qq.com/chuangshi/p1/ico/ftip.gif?v=1372384372) no-repeat 0% 50%; MARGIN: 3px 0px 0px 110px; TEXT-INDENT: 20px
+}
+.bookshelf {
+	BORDER-TOP: #cdcdcd 2px solid; HEIGHT: 350px; BORDER-RIGHT: #cdcdcd 2px solid; WIDTH: 500px; BACKGROUND: #fafafa; BORDER-BOTTOM: #cdcdcd 2px solid; POSITION: fixed; LEFT: 35%; BORDER-LEFT: #cdcdcd 2px solid; Z-INDEX: 101; DISPLAY: none; TOP: 200px; _position: absolute; border-radius: 5px
+}
+.booktag {
+	POSITION: relative; PADDING-BOTTOM: 0px; PADDING-TOP: 40px; PADDING-LEFT: 40px; PADDING-RIGHT: 40px
+}
+.booktag H2 {
+	TEXT-INDENT: 80px
+}
+.booktag STRONG {
+	HEIGHT: 37px; WIDTH: 46px; BACKGROUND-POSITION: -742px -438px; MARGIN: 0px 10px -10px 0px; DISPLAY: inline-block
+}
+.booktag .tittip {
+	HEIGHT: 65px; BORDER-BOTTOM: #ccc 1px dotted; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 700 14px/14px "ËÎÌå"; PADDING-LEFT: 40px; PADDING-RIGHT: 0px
+}
+.addbooktag {
+	POSITION: relative; PADDING-BOTTOM: 0px; PADDING-TOP: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.addbooktag P {
+	MARGIN-BOTTOM: 15px; WHITE-SPACE: nowrap; LINE-HEIGHT: normal
+}
+.addbooktag INPUT {
+	VERTICAL-ALIGN: middle; MARGIN: -2px 1px 1px 0px
+}
+.addbooktag LABEL {
+	OVERFLOW: hidden; MAX-WIDTH: 80px; WHITE-SPACE: nowrap !important; TEXT-OVERFLOW: ellipsis; DISPLAY: inline-block; _width: 80px; -o-text-overflow: ellipsis
+}
+.min_confirm {
+	HEIGHT: 30px; WIDTH: 68px; BACKGROUND-POSITION: -612px -320px; COLOR: #fff; TEXT-ALIGN: center; FONT: 15px/30px "Microsoft Yahei"; MARGIN: 40px auto 0px; DISPLAY: block
+}
+.popup_theme {
+	BORDER-TOP: #ccc 2px solid; BORDER-RIGHT: #ccc 2px solid; WIDTH: 336px; BACKGROUND: #fafafa; BORDER-BOTTOM: #ccc 2px solid; POSITION: fixed; PADDING-BOTTOM: 20px; PADDING-TOP: 14px; PADDING-LEFT: 30px; LEFT: 40%; BORDER-LEFT: #ccc 2px solid; Z-INDEX: 109; TOP: 220px; PADDING-RIGHT: 30px; _position: absolute; border-radius: 5px
+}
+.popup_theme H2 {
+	FONT: 700 12px/24px "ËÎÌå"
+}
+.popup_theme P {
+	BORDER-BOTTOM: #ccc 1px dotted
+}
+.theme_list {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 15px
+}
+.theme_list LI {
+	OVERFLOW: hidden; ZOOM: 1
+}
+.theme_list LI A {
+	FLOAT: right
+}
+.theme_list LI .gray {
+	OVERFLOW: hidden; WIDTH: 230px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis; FLOAT: left
+}
+.theme_list LI EM {
+	FLOAT: left
+}
+.shelf_popup {
+	BORDER-TOP: #ccc 2px solid; BORDER-RIGHT: #ccc 2px solid; WIDTH: 500px; BACKGROUND: #fafafa; BORDER-BOTTOM: #ccc 2px solid; POSITION: fixed; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 30px; LEFT: 36%; BORDER-LEFT: #ccc 2px solid; Z-INDEX: 99; DISPLAY: none; TOP: 20%; PADDING-RIGHT: 15px; _position: absolute; border-radius: 5px
+}
+.shelf_popup H1 {
+	FONT: 700 16px/30px "Microsoft Yahei"
+}
+.shelf_close {
+	HEIGHT: 15px; WIDTH: 16px; BACKGROUND-POSITION: -290px -387px; FLOAT: right; MARGIN-TOP: 6px; _overflow: hidden
+}
+#Tags_ctrl {
+	HEIGHT: 175px; PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 60px; PADDING-RIGHT: 20px
+}
+.Tags_ctrl_h1 {
+	MARGIN-BOTTOM: 10px
+}
+.add_newtag {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 40px; PADDING-LEFT: 10px; PADDING-RIGHT: 0px
+}
+.midinput2 {
+	HEIGHT: 25px; WIDTH: 250px; VERTICAL-ALIGN: middle; BACKGROUND-POSITION: 0px -1029px; LINE-HEIGHT: 25px; TEXT-INDENT: 5px; _background: #fff; _border: 1px
+solid #ccc
+}
+.shelf_tip {
+	PADDING-LEFT: 80px
+}
+.confirm_add {
+	WIDTH: 100px; MARGIN: 0px auto
+}
+.shelf_stars {
+	BORDER-BOTTOM-STYLE: none; POSITION: relative; MARGIN-TOP: 30px
+}
+.assess_h1 {
+	PADDING-LEFT: 40px
+}
+.add_book_list {
+	HEIGHT: 600px; TOP: 12%
+}
+.book_name_popup {
+	HEIGHT: 230px; WIDTH: 400px; LEFT: 39%; DISPLAY: none; TOP: 250px
+}
+.book_name_popup DIV {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 30px; PADDING-LEFT: 70px; PADDING-RIGHT: 0px
+}
+.book_name_popup P {
+	MARGIN-BOTTOM: 10px
+}
+.book_name_btn {
+	PADDING-LEFT: 70px; MARGIN-TOP: 40px
+}
+.booklist_assess {
+	BORDER-TOP: #d5d5d5 1px solid; HEIGHT: 382px; BORDER-RIGHT: #d5d5d5 1px solid; WIDTH: 480px; OVERFLOW-Y: scroll; BORDER-BOTTOM: #d5d5d5 1px solid; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 8px; MARGIN: 20px 0px 30px; BORDER-LEFT: #d5d5d5 1px solid; PADDING-RIGHT: 8px
+}
+.booklist_assess P {
+	MARGIN-BOTTOM: 15px
+}
+.booklist_assess INPUT {
+	VERTICAL-ALIGN: middle; MARGIN: -2px 5px 1px 0px
+}
+.booklist_assess LABEL {
+	MARGIN-RIGHT: 15px
+}
+.addshelf_btn {
+	MARGIN-TOP: 30px
+}
+.addshelf_btn A {
+	FLOAT: left
+}
+.name_input_btn A {
+	FLOAT: left
+}
+.book_name_btn A {
+	FLOAT: left
+}
+.addbtn {
+	MARGIN-RIGHT: 20px
+}
+.modify_head_popup {
+	BORDER-TOP: #cdcdcd 2px solid; BORDER-RIGHT: #cdcdcd 2px solid; BACKGROUND: #fafafa; BORDER-BOTTOM: #cdcdcd 2px solid; POSITION: fixed; PADDING-BOTTOM: 0px; PADDING-TOP: 20px; PADDING-LEFT: 30px; BORDER-LEFT: #cdcdcd 2px solid; Z-INDEX: 101; DISPLAY: none; PADDING-RIGHT: 0px; _position: absolute; border-radius: 5px
+}
+.modify_name_popup {
+	BORDER-TOP: #cdcdcd 2px solid; BORDER-RIGHT: #cdcdcd 2px solid; BACKGROUND: #fafafa; BORDER-BOTTOM: #cdcdcd 2px solid; POSITION: fixed; PADDING-BOTTOM: 0px; PADDING-TOP: 20px; PADDING-LEFT: 30px; BORDER-LEFT: #cdcdcd 2px solid; Z-INDEX: 101; DISPLAY: none; PADDING-RIGHT: 0px; _position: absolute; border-radius: 5px
+}
+.modify_head_popup {
+	WIDTH: 620px; PADDING-BOTTOM: 20px; LEFT: 33%; TOP: 15%; _top: 120px
+}
+.modify_head_popup H1 {
+	FONT: 700 16px/18px "Microsoft Yahei"
+}
+.creat_booklist_popup H1 {
+	FONT: 700 16px/18px "Microsoft Yahei"
+}
+.modify_name_popup H1 {
+	FONT: 700 16px/18px "Microsoft Yahei"
+}
+.modify_close {
+	OVERFLOW: hidden; HEIGHT: 15px; WIDTH: 16px; BACKGROUND-POSITION: -290px -388px; FLOAT: right; MARGIN: 0px 20px 0px 0px
+}
+.h_photo_list {
+	PADDING-TOP: 30px
+}
+.head_page {
+	PADDING-RIGHT: 30px
+}
+.h_photo_list IMG {
+	BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; BORDER-BOTTOM: #ccc 1px solid; FLOAT: left; PADDING-BOTTOM: 1px; PADDING-TOP: 1px; PADDING-LEFT: 1px; MARGIN: 0px 18px 15px 0px; BORDER-LEFT: #ccc 1px solid; PADDING-RIGHT: 1px
+}
+.h_photo_list IMG.hpcur {
+	BORDER-TOP: #900 1px solid; BORDER-RIGHT: #900 1px solid; BORDER-BOTTOM: #900 1px solid; BORDER-LEFT: #900 1px solid; box-shadow: 0 0 2px 0 #900
+}
+.headphoto_save {
+	ZOOM: 1; PADDING-BOTTOM: 0px; PADDING-TOP: 20px; PADDING-LEFT: 244px; CLEAR: both; PADDING-RIGHT: 0px
+}
+.headphoto_save .savebtn {
+	HEIGHT: 33px; WIDTH: 90px; BACKGROUND-POSITION: -314px -327px; COLOR: #fff
+}
+.headphoto_save .savebtn:hover {
+	HEIGHT: 33px; WIDTH: 90px; BACKGROUND-POSITION: -314px -327px; COLOR: #fff
+}
+.modify_name_popup {
+	HEIGHT: 380px; WIDTH: 500px; LEFT: 36%; TOP: 18%
+}
+.name_tip {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 30px; PADDING-LEFT: 20px; PADDING-RIGHT: 35px
+}
+.name_input {
+	BORDER-TOP: #ccc 1px dotted; MARGIN-TOP: 20px
+}
+.name_input EM {
+	MARGIN-LEFT: 10px
+}
+.name_input P {
+	MARGIN: 20px 0px 20px 20px
+}
+.name_input_btn {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 15px; PADDING-LEFT: 87px; PADDING-RIGHT: 0px
+}
+.creat_booklist_popup {
+	BORDER-TOP: #cdcdcd 2px solid; HEIGHT: 350px; BORDER-RIGHT: #cdcdcd 2px solid; WIDTH: 470px; BACKGROUND: #fafafa; BORDER-BOTTOM: #cdcdcd 2px solid; POSITION: fixed; PADDING-BOTTOM: 0px; PADDING-TOP: 20px; PADDING-LEFT: 30px; LEFT: 35%; BORDER-LEFT: #cdcdcd 2px solid; Z-INDEX: 101; DISPLAY: none; TOP: 18%; PADDING-RIGHT: 0px; _position: absolute; border-radius: 5px
+}
+.creat_form {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 30px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.creat_form SPAN {
+	FONT-SIZE: 14px; VERTICAL-ALIGN: middle
+}
+.creat_form P {
+	MARGIN-BOTTOM: 30px; LINE-HEIGHT: 1
+}
+.creat_form INPUT {
+	VERTICAL-ALIGN: middle; MARGIN: -2px 5px 1px 0px
+}
+.creat_form LABEL {
+	FONT-SIZE: 14px
+}
+.creat_form TEXTAREA {
+	OVERFLOW: hidden; HEIGHT: 112px; WIDTH: 314px; VERTICAL-ALIGN: top
+}
+.confirm_chioce {
+	PADDING-LEFT: 120px
+}
+.add_work_popup {
+	BORDER-TOP: #cdcdcd 2px solid; BORDER-RIGHT: #cdcdcd 2px solid; WIDTH: 400px; BACKGROUND: #fafafa; BORDER-BOTTOM: #cdcdcd 2px solid; POSITION: fixed; PADDING-BOTTOM: 0px; PADDING-TOP: 20px; PADDING-LEFT: 30px; LEFT: 39%; BORDER-LEFT: #cdcdcd 2px solid; Z-INDEX: 101; DISPLAY: none; TOP: 15%; PADDING-RIGHT: 0px; _position: absolute; border-radius: 5px
+}
+.add_booklist2_popup {
+	BORDER-TOP: #cdcdcd 2px solid; BORDER-RIGHT: #cdcdcd 2px solid; WIDTH: 400px; BACKGROUND: #fafafa; BORDER-BOTTOM: #cdcdcd 2px solid; POSITION: fixed; PADDING-BOTTOM: 0px; PADDING-TOP: 20px; PADDING-LEFT: 30px; LEFT: 39%; BORDER-LEFT: #cdcdcd 2px solid; Z-INDEX: 101; DISPLAY: none; TOP: 15%; PADDING-RIGHT: 0px; _position: absolute; border-radius: 5px
+}
+.add_work_popup {
+	HEIGHT: 480px
+}
+.add_booklist2_popup {
+	HEIGHT: 440px
+}
+.add_work_popup P {
+	MARGIN-BOTTOM: 20px
+}
+.add_booklist2_popup P {
+	MARGIN-BOTTOM: 20px
+}
+.add_work_popup I {
+	MARGIN-LEFT: 255px
+}
+.add_booklist2_popup I {
+	MARGIN-LEFT: 255px
+}
+.add_story_btn {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.book_assess_popup {
+	BORDER-TOP: #cdcdcd 2px solid; HEIGHT: 380px; BORDER-RIGHT: #cdcdcd 2px solid; WIDTH: 400px; BACKGROUND: #fafafa; BORDER-BOTTOM: #cdcdcd 2px solid; BORDER-LEFT: #cdcdcd 2px solid; Z-INDEX: 101; border-radius: 5px
+}
+.edit_assess {
+	DISPLAY: none
+}
+.reward_book_popup {
+	DISPLAY: none
+}
+.award_book_popup {
+	DISPLAY: none
+}
+.award_book_popup {
+	HEIGHT: 280px
+}
+A.submit_regi {
+	HEIGHT: 32px; WIDTH: 96px; BACKGROUND: #fc6c83; FLOAT: left; COLOR: #fff; TEXT-ALIGN: center; FONT: 14px/32px "microsoft yahei"; DISPLAY: block
+}
+.top01 {
+	HEIGHT: 70px; PADDING-LEFT: 40px
+}
+.top01 H1 {
+	FLOAT: left; PADDING-TOP: 16px; FONT: 16px/51px "microsoft yahei"
+}
+.top01 A.closex {
+	HEIGHT: 41px; WIDTH: 40px; BACKGROUND: url(http://img1.chuangshi.qq.com/chuangshi/p1/register/tabs.gif?v=1372384372) no-repeat -160px -218px; FLOAT: right; DISPLAY: block
+}
+.top01 A.closex:hover {
+	BACKGROUND: url(http://img1.chuangshi.qq.com/chuangshi/p1/register/tabs.gif?v=1372384372) no-repeat -160px -259px
+}
+.nev01 {
+	PADDING-LEFT: 42px
+}
+.nev01 .left_pa {
+	WIDTH: 384px; FLOAT: left
+}
+.nev01 .right_pa {
+	WIDTH: 182px; BACKGROUND: url(http://img1.chuangshi.qq.com/chuangshi/p1/register/leftright_line.gif?v=1372384372) no-repeat left 20px; FLOAT: left; PADDING-LEFT: 34px
+}
+.nev01 UL LI {
+	MARGIN-BOTTOM: 25px; HEIGHT: 25px; LINE-HEIGHT: 25px
+}
+.nev01 UL LI B {
+	WIDTH: 80px; FLOAT: left; FONT: 13px/25px "ËÎÌå"
+}
+.nev01 .mdinput {
+	BORDER-TOP-STYLE: none; HEIGHT: 25px; WIDTH: 195px; BACKGROUND: url(http://img1.chuangshi.qq.com/chuangshi/p1/register/tabs.gif?v=1372384372) no-repeat 0px -165px; BORDER-BOTTOM-STYLE: none; FLOAT: left; BORDER-RIGHT-STYLE: none; PADDING-LEFT: 5px; MARGIN: 0px; BORDER-LEFT-STYLE: none; LINE-HEIGHT: 25px
+}
+.nev01 .sminput {
+	BORDER-TOP-STYLE: none; HEIGHT: 25px; WIDTH: 95px; BACKGROUND: url(http://img1.chuangshi.qq.com/chuangshi/p1/register/tabs.gif?v=1372384372) no-repeat 0px -133px; BORDER-BOTTOM-STYLE: none; FLOAT: left; BORDER-RIGHT-STYLE: none; PADDING-LEFT: 5px; MARGIN: 0px; BORDER-LEFT-STYLE: none; LINE-HEIGHT: 25px
+}
+.nev01 UL LI .yzm {
+	HEIGHT: 31px; BACKGROUND: url(http://img1.chuangshi.qq.com/chuangshi/p1/register/tabs.gif?v=1372384372) no-repeat 0px -222px; FLOAT: left; PADDING-LEFT: 108px; MARGIN-LEFT: 5px; DISPLAY: block
+}
+.nev01 UL LI .grey2 {
+	FONT-FAMILY: "microsoft yahei"; COLOR: #333
+}
+.nev01 H1 {
+	FONT: 15px/34px "microsoft yahei"
+}
+A.QQlogin {
+	HEIGHT: 42px; WIDTH: 182px; BACKGROUND: url(http://img1.chuangshi.qq.com/chuangshi/p1/register/tabs.gif?v=1372384372) no-repeat 0px -56px; MARGIN-TOP: 15px; DISPLAY: block
+}
+.nev01 UL .topf {
+	PADDING-TOP: 20px
+}
+.nev01 UL LI I {
+	HEIGHT: 25px; WIDTH: 25px; BACKGROUND: url(http://img1.chuangshi.qq.com/chuangshi/p1/register/tabs.gif?v=1372384372) no-repeat 0px -197px; FLOAT: left; MARGIN-LEFT: 10px
+}
+.nev02 {
+	PADDING-LEFT: 90px; MARGIN-TOP: 20px
+}
+.nev01 .nev_ds {
+	LINE-HEIGHT: 37px; PADDING-RIGHT: 30px
+}
+.nev01 .nev_ds I {
+	COLOR: #666; FONT-STYLE: normal
+}
+A.cancel01 {
+	HEIGHT: 32px; WIDTH: 80px; BACKGROUND: #cacaca; FLOAT: left; COLOR: #333; TEXT-ALIGN: center; FONT: 14px/32px "microsoft yahei"; MARGIN-LEFT: 20px; DISPLAY: block
+}
+.nev01 INPUT {
+	VERTICAL-ALIGN: middle; MARGIN: -2px 0px 1px; _margin: 0
+}
+.nev01 P {
+	FONT-SIZE: 14px; MARGIN: 25px 25px 25px 50px
+}
+.nev01 SPAN {
+	COLOR: #f60
+}
+A.submit_small {
+	HEIGHT: 25px; WIDTH: 60px; BACKGROUND: url(http://img1.chuangshi.qq.com/chuangshi/p1/cxl_other/book_comment_btn01.gif?v=1372384372); FLOAT: left; COLOR: #333; TEXT-ALIGN: center; FONT: 12px/25px "microsoft yahei"; MARGIN-LEFT: 5px; DISPLAY: block
+}
+.pay_center_pop {
+	HEIGHT: 170px; TOP: 200px
+}
+.pay_center_tip {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.pay_center_btn {
+	PADDING-LEFT: 130px
+}
+.pay_center_btn A {
+	FLOAT: left; MARGIN-RIGHT: 20px
+}
+.reader_mode_popup {
+	BORDER-TOP: #ccc 2px solid; HEIGHT: 253px; BORDER-RIGHT: #ccc 2px solid; WIDTH: 400px; BACKGROUND: #fafafa; BORDER-BOTTOM: #ccc 2px solid; PADDING-BOTTOM: 25px; PADDING-TOP: 0px; PADDING-LEFT: 20px; BORDER-LEFT: #ccc 2px solid; PADDING-RIGHT: 20px
+}
+.reader_mode_popup H1 {
+	MARGIN-BOTTOM: 10px; BACKGROUND: url(http://img1.chuangshi.qq.com/chuangshi/p1/ico/Gear.png?v=1372643617) no-repeat 0px 50%; BORDER-BOTTOM: #ccc 1px dotted; FONT: 15px/55px "Microsoft Yahei"; TEXT-INDENT: 40px
+}
+.reader_mode_popup H1 A.close_btn {
+	OVERFLOW: hidden; MARGIN: 19px 0px 0px
+}
+.select_mode {
+	POSITION: relative; PADDING-BOTTOM: 50px; PADDING-TOP: 50px; PADDING-LEFT: 50px; PADDING-RIGHT: 50px
+}
+.select_mode A {
+	FLOAT: left; TEXT-INDENT: -9999px
+}
+.y_read {
+	HEIGHT: 94px; WIDTH: 66px; BACKGROUND: url(http://img1.chuangshi.qq.com/chuangshi/p1/y-read.png?v=1372643617) no-repeat; MARGIN-RIGHT: 140px
+}
+.y_cur {
+	BACKGROUND: url(http://img1.chuangshi.qq.com/chuangshi/p1/y-read2.png?v=1372643617) no-repeat
+}
+.y_read:hover {
+	BACKGROUND: url(http://img1.chuangshi.qq.com/chuangshi/p1/y-read2.png?v=1372643617) no-repeat
+}
+.x_read {
+	HEIGHT: 66px; WIDTH: 94px; BACKGROUND: url(http://img1.chuangshi.qq.com/chuangshi/p1/x-read.png?v=1372643617) no-repeat; MARGIN-TOP: 10px
+}
+.x_cur {
+	BACKGROUND: url(http://img1.chuangshi.qq.com/chuangshi/p1/x-read2.png?v=1372643617) no-repeat
+}
+.x_read:hover {
+	BACKGROUND: url(http://img1.chuangshi.qq.com/chuangshi/p1/x-read2.png?v=1372643617) no-repeat
+}
+.select_mode P {
+	POSITION: absolute; LEFT: 58px; TOP: 15px
+}
+.select_mode SPAN {
+	RIGHT: 74px; POSITION: absolute; TOP: 28px
+}
+.readerInteractPopup {
+	FONT-FAMILY: "ËÎÌå"; TEXT-ALIGN: left; LINE-HEIGHT: normal
+}
+.jy_btn {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 5px; PADDING-LEFT: 53px; PADDING-RIGHT: 0px
+}
+.medal_popup {
+	BORDER-TOP: #ccc 2px solid; HEIGHT: 230px; BORDER-RIGHT: #ccc 2px solid; WIDTH: 440px; BACKGROUND: #fafafa; BORDER-BOTTOM: #ccc 2px solid; BORDER-LEFT: #ccc 2px solid; Z-INDEX: 99; DISPLAY: none; border-radius: 5px
+}
+.medal_basic {
+	POSITION: relative
+}
+.medal_img {
+	POSITION: absolute; LEFT: 40px; TOP: 30px
+}
+.medal_img P {
+	TEXT-ALIGN: center
+}
+.medal_close {
+	OVERFLOW: hidden; HEIGHT: 15px; WIDTH: 16px; RIGHT: 10px; POSITION: absolute; BACKGROUND-POSITION: -290px -387px; TOP: 10px; TEXT-INDENT: -9999px
+}
+.medal_popup_info {
+	WIDTH: 250px; POSITION: absolute; LEFT: 170px; TOP: 30px
+}
+.medal_popup_info INPUT {
+	MARGIN-TOP: 10px
+}
+#QRcode_pay {
+	BORDER-TOP: #cdcdcd 2px solid; HEIGHT: 350px; BORDER-RIGHT: #cdcdcd 2px solid; WIDTH: 350px; BACKGROUND: #fafafa; BORDER-BOTTOM: #cdcdcd 2px solid; TEXT-ALIGN: center; BORDER-LEFT: #cdcdcd 2px solid; Z-INDEX: 101; border-radius: 5px
+}
+#QRcode_pay H3 {
+	POSITION: relative; ZOOM: 1; LINE-HEIGHT: 80px
+}
+#QRclose {
+	OVERFLOW: hidden; HEIGHT: 16px; WIDTH: 16px; BACKGROUND: url(http://img1.chuangshi.qq.com/chuangshi/p1/sprite.png) -290px -387px; RIGHT: 5px; POSITION: absolute; TOP: 5px
+}
+#CdkdyPopup {
+	BORDER-TOP: #cdcdcd 2px solid; BORDER-RIGHT: #cdcdcd 2px solid; WIDTH: 280px; BACKGROUND: #fafafa; BORDER-BOTTOM: #cdcdcd 2px solid; POSITION: fixed; PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 20px; LEFT: 41%; BORDER-LEFT: #cdcdcd 2px solid; Z-INDEX: 101; TOP: 33%; PADDING-RIGHT: 20px; _position: absolute; border-radius: 5px
+}
+#CdkdyPopup DIV {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 20px; PADDING-LEFT: 30px; PADDING-RIGHT: 0px
+}
+#qqBindTip {
+	HEIGHT: 311px; WIDTH: 500px; BACKGROUND: url(http://img1.chuangshi.qq.com/chuangshi/p1/QQLogin/bindPopup.jpg) no-repeat
+}
+#qqBindClose {
+	HEIGHT: 28px; WIDTH: 28px; RIGHT: 0px; POSITION: absolute; TOP: 0px
+}
+#bindQQLink {
+	HEIGHT: 28px; WIDTH: 88px; POSITION: absolute; LEFT: 242px; TOP: 90px
+}
+.waitPopup {
+	POSITION: absolute
+}
+.waitTips {
+	WIDTH: 150px; POSITION: absolute; COLOR: #fff; FONT: 700 14px/1.8 'ËÎÌå'; LEFT: -135%; Z-INDEX: 1000
+}

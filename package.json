@@ -1,0 +1,22 @@
+{
+  "name": "admin",
+  "description": "admin",
+  "repository": "",
+  "version": "1.0.46",
+  "author": {
+    "name": "mumagege",
+    "email": "chengang01@live.com"
+  },
+  "dependencies": {
+    "@types/cheerio": "^0.22.29",
+    "@types/sha1": "^1.1.2",
+    "cgserver": "^3.0.1",
+    "cheerio": "^1.0.0-rc.10",
+    "sha1": "^1.1.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3",
+    "webpack-node-externals": "^1.6.0"
+  }
+}

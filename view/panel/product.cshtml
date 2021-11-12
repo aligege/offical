@@ -1,0 +1,328 @@
+<% include Modules/Offical/View/Common/header.cshtml %>
+<% include Modules/Offical/View/Common/loading_container.cshtml %>
+<link href="/statics/module/xoffical/css/product.css" rel="stylesheet" />
+<div role="main" id="app" class="tab-wrap box">
+    <div class="container">
+        <div class="tab-pannel ">
+            <div class="pannel-1 p-box">
+                <div class="tab-left">
+
+                </div>
+                <ul class="tab-middle">
+                    <li>
+                        <i class="iconfont icon-mokuai"></i>
+                        <span>1:数据报表统计</span>
+                        <i class="iconfont icon-cuoconverted pull-right c-wrong"></i>
+                    </li>
+                    <li>
+                        <i class="iconfont icon-gongzhonghao"></i>
+                        <span>2:机器人自动陪玩</span>
+                        <i class="iconfont icon-duiconverted pull-right c-yes"></i>
+                    </li>
+                    <li>
+                        <i class="iconfont icon-gongzhonghao"></i>
+                        <span>3:房间在线配置</span>
+                        <i class="iconfont icon-cuoconverted pull-right c-wrong"></i>
+                    </li>
+                </ul>
+                <ul class="tab-middle">
+                    <li>
+                        <i class="iconfont icon-shouji"></i>
+                        <span>4:房间难度随时调整</span>
+                        <i class="iconfont icon-cuoconverted pull-right c-wrong"></i>
+                    </li>
+                    <li>
+                        <i class="iconfont icon-kefu"></i>
+                        <span>5:用户单独输赢控制</span>
+                        <i class="iconfont icon-duiconverted pull-right c-yes"></i>
+                    </li>
+                </ul>
+                <ul class="tab-middle">
+                    <li>
+                        <i class="iconfont icon-shouji"></i>
+                        <span>6:包含麻将、水果机</span>
+                        <i class="iconfont icon-cuoconverted pull-right c-wrong"></i>
+                    </li>
+                </ul>
+                <div class="tab-right">
+                    <div>
+                        <button type="button" class="btn-lg btn-success" @click="cloudGame(0)" v-if="shouldFee(0)">前往后台</button>
+                        <button type="button" class="btn-lg btn-success" @click="goGame(0)" v-else>开通产品</button>
+                    </div>
+                    <div style="padding-top: 20px">
+                        <button type="button" class="btn btn-link" @click="goGame(0)" v-if="shouldFee(0)">产品续费</button>
+                        <button type="button" class="btn btn-link" @click="testGame(0)" v-else-if="canTest(0)">先去体验(已开通)</button>
+                        <button type="button" class="btn btn-link" @click="payTest(1001)" v-else>先去体验(未开通)</button>
+                    </div>
+                </div>
+            </div>
+            <div class="pannel-2 p-box">
+                <div class="tab-left">
+
+                </div>
+                <ul class="tab-middle">
+                    <li>
+                        <i class="iconfont icon-mokuai"></i>
+                        <span>1:数据报表统计</span>
+                        <i class="iconfont icon-cuoconverted pull-right c-wrong"></i>
+                    </li>
+                    <li>
+                        <i class="iconfont icon-gongzhonghao"></i>
+                        <span>2:机器人自动陪玩</span>
+                        <i class="iconfont icon-duiconverted pull-right c-yes"></i>
+                    </li>
+                    <li>
+                        <i class="iconfont icon-gongzhonghao"></i>
+                        <span>3:房间在线配置</span>
+                        <i class="iconfont icon-cuoconverted pull-right c-wrong"></i>
+                    </li>
+                </ul>
+                <ul class="tab-middle">
+                    <li>
+                        <i class="iconfont icon-shouji"></i>
+                        <span>4:房间难度随时调整</span>
+                        <i class="iconfont icon-cuoconverted pull-right c-wrong"></i>
+                    </li>
+                    <li>
+                        <i class="iconfont icon-kefu"></i>
+                        <span>5:机器人强弱控制</span>
+                        <i class="iconfont icon-duiconverted pull-right c-yes"></i>
+                    </li>
+                    <li>
+                        <i class="iconfont icon-kefu"></i>
+                        <span>6:牌桌在线查看</span>
+                        <i class="iconfont icon-duiconverted pull-right c-yes"></i>
+                    </li>
+                </ul>
+                <ul class="tab-middle">
+                    <li>
+                        <i class="iconfont icon-shouji"></i>
+                        <span>6:包含麻将、牛牛、拼三张</span>
+                        <i class="iconfont icon-cuoconverted pull-right c-wrong"></i>
+                    </li>
+                </ul>
+                <div class="tab-right">暂未开放敬请期待</div>
+            </div>
+            <div class="pannel-3 p-box">
+                <div class="tab-left">
+
+                </div>
+                <ul class="tab-middle">
+                    <li>
+                        <i class="iconfont icon-mokuai"></i>
+                        <span>1:数据报表统计</span>
+                        <i class="iconfont icon-cuoconverted pull-right c-wrong"></i>
+                    </li>
+                    <li>
+                        <i class="iconfont icon-gongzhonghao"></i>
+                        <span>2:机器人自动陪玩</span>
+                        <i class="iconfont icon-duiconverted pull-right c-yes"></i>
+                    </li>
+                    <li>
+                        <i class="iconfont icon-gongzhonghao"></i>
+                        <span>3:房间在线配置</span>
+                        <i class="iconfont icon-cuoconverted pull-right c-wrong"></i>
+                    </li>
+                </ul>
+                <ul class="tab-middle">
+                    <li>
+                        <i class="iconfont icon-shouji"></i>
+                        <span>4:房间难度随时调整</span>
+                        <i class="iconfont icon-cuoconverted pull-right c-wrong"></i>
+                    </li>
+                    <li>
+                        <i class="iconfont icon-kefu"></i>
+                        <span>5:用户白名单设置</span>
+                        <i class="iconfont icon-duiconverted pull-right c-yes"></i>
+                    </li>
+                    <li>
+                        <i class="iconfont icon-kefu"></i>
+                        <span>6:在线作弊系统</span>
+                        <i class="iconfont icon-duiconverted pull-right c-yes"></i>
+                    </li>
+                </ul>
+                <ul class="tab-middle">
+                    <li>
+                        <i class="iconfont icon-shouji"></i>
+                        <span>7:包含麻将、牛牛、拼三张</span>
+                        <i class="iconfont icon-cuoconverted pull-right c-wrong"></i>
+                    </li>
+                </ul>
+                <div class="tab-right">暂未开放敬请期待</div>
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+    <div id="custom">
+        <div id="id_open" style="display: none;padding:50px;padding-top:20px;padding-bottom:10px">
+
+        </div>
+    </div>
+    <script type="text/javascript">
+        var vm_op = new Vue({
+            el: '#app',
+            data: 
+            {
+                id:0,
+                unionid:"",
+                openid:"",
+                access_token:"",
+                products:[]
+            },
+            created()
+            {
+                let self = this
+                $.ajax({
+                    type: "POST",
+                    url: "/panel/products",
+                    dataType: 'json',
+                    data:{},
+                    xhrFields: {
+                        withCredentials: true
+                    },
+                    crossDomain: true,
+                    success:function(response)
+                    {
+                        self.unionid=response.unionid
+                        self.openid=response.openid
+                        self.access_token=response.access_token
+                        self.products=response.products||[]
+                    },
+                    error:function(err){
+                        layer.msg("请求错误", {icon: 5, time: 2000})
+                    },
+                })
+            },
+            methods: 
+            {
+                cloudGame:function(game_type)
+                {
+                    let urls=[
+                        "http://www.eryinet.com:7002/Login/OfficalLogin?unionid="+this.unionid+"&openid="+this.openid+"&access_token="+this.access_token+"&from=2",
+                    ]
+                    window.open(urls[game_type])
+                },
+                testGame:function(game_type)
+                {
+                    let urls=[
+                        "http://www.eryinet.com:6419/Login/OfficalLogin?unionid="+this.unionid+"&openid="+this.openid+"&access_token="+this.access_token+"&from=2",
+                    ]
+                    window.open(urls[game_type])
+                },
+                goGame:function(game_type)
+                {
+                    // let urls=[
+                    //     "http://www.eryinet.com:8419/Login/OfficalLogin?unionid="+this.unionid+"&openid="+this.openid+"&access_token="+this.access_token+"&from=2",
+                    // ]
+                    let urls=[
+                        "/Product/fish",
+                        "/Product/coin",
+                        "/Product/custom",
+                        "/Product/all",
+                    ]
+                    window.location.href=urls[game_type]
+                },
+                shouldFee:function(game_type)
+                {
+                    if(!this.products)
+                    {
+                        return false
+                    }
+                    let now = Date.now()
+                    for(let i=0;i<this.products.length;++i)
+                    {
+                        let pd = this.products[i]
+                        if(pd.game_type==game_type)
+                        {
+                            if(pd.cloud_time>now)
+                            {
+                                return true
+                            }
+                            break
+                        }
+                    }
+                    return false
+                },
+                canTest:function(game_type)
+                {
+                    if(!this.products)
+                    {
+                        return false
+                    }
+                    let now = Date.now()
+                    for(let i=0;i<this.products.length;++i)
+                    {
+                        let pd = this.products[i]
+                        if(pd.game_type==game_type)
+                        {
+                            if(pd.test_time>now)
+                            {
+                                return true
+                            }
+                            break
+                        }
+                    }
+                    return false
+                },
+                payTest:function(product_id)
+                {
+                    let self = this
+                    layer.open({
+                        title: '开通体验',
+                        btn: ['取消',"开通"],
+                        btnAlign: 'c',
+                        shadeClose: true, //点击遮罩关闭层
+                        maxmin: true,
+                        shade: 0.5,
+                        area : ['300px' , '270px'],
+                        content: "1、体验后台需要为用户单独开放临时后台程序服务器消耗巨大 <br/>2、防止恶意体验客户，利用体验端进行商业使用；<br/>少许收取用户100元的体验费用，尽情体谅",
+                        yes: function(index, layero){
+                            layer.close(index)
+                        },
+                        btn2: function(index, layero)
+                        {
+                            self.payGame(product_id)
+                        }
+                    });
+                },
+                payGame:function(product_id)
+                {
+                    let self = this
+                    $.ajax({
+                        type: "POST",
+                        url: "/alipay/payurl",
+                        dataType: 'json',
+                        data:{product_id},
+                        xhrFields: {
+                            withCredentials: true
+                        },
+                        crossDomain: true,
+                        success:function(response)
+                        {
+                            window.open(response.url)
+                            let self = this
+                            layer.open({
+                                title: '支付结果',
+                                btn: ['确认'],
+                                btnAlign: 'c',
+                                shadeClose: true, //点击遮罩关闭层
+                                maxmin: true,
+                                shade: 0.5,
+                                area : ['200px' , '170px'],
+                                content: "支付完成?",
+                                yes: function(index, layero){
+                                    window.location.reload()
+                                }
+                            });
+                        },
+                        error:function(err){
+                            layer.msg("请求错误", {icon: 5, time: 2000})
+                        },
+                    })
+                }
+            }
+        });
+    </script>
+</div>
+<% include Modules/Offical/View/Common/footer.cshtml %>

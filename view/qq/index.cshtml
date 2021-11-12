@@ -1,0 +1,21 @@
+<html>
+    <head></head>
+    <body>
+        <script src="/statics/js/jquery-2.0.3.min.js"></script>
+        <script src="https://cdn.bootcss.com/layer/2.3/layer.js"></script>
+        <link href="https://cdn.bootcss.com/layer/2.3/skin/layer.css" rel="stylesheet">
+        <script src="/statics/custom/qqtool.js"></script>
+        <script>
+            let url=getAuthCodeUrl("101775753")
+            layer.open({
+                type: 2,
+                title: '',
+                shadeClose: true, //点击遮罩关闭层
+                maxmin: true,
+                shade: 0.5,
+                area : ['800px' , '500px'],
+                content: url
+            });
+        </script>
+    </body>
+</html>
